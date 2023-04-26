@@ -99,16 +99,6 @@
       "description": "Salut, eu sunt Mirabela Ionescu si aceasta este noua mea descriere",
       "isAdmin": "false",
       "id": 10
-    },
-    {
-      "username": "andrei.m",
-      "password": "",
-      "firstName": "borsuk",
-      "lastName": "maresiu",
-      "email": "andrei.maresiu@gmail.com",
-      "description": "",
-      "isAdmin": "false",
-      "id": 11
     }
   ],
   "questions": [
@@ -4189,14 +4179,6 @@
       "email": "maria.popescu@gmail.com",
       "message": "Si inca unul",
       "id": 6
-    },
-    {
-      "userID": "11",
-      "firstName": "Andrei",
-      "lastName": "Maresiu",
-      "email": "andrei.maresiu@gmail.com",
-      "message": "Hello",
-      "id": 7
     },
     {
       "userID": "3",
