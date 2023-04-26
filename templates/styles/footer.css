@@ -1,0 +1,21 @@
+.social-media-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 72px;
+}
+
+.social-media-container .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: rgba(145, 152, 159, 0.963);
+}
+
+.social-media-container .fa:hover {
+    opacity: 0.7;
+}

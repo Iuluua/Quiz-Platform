@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+}
+
+.sign-up-container h1 {
+    margin-bottom: 36px;
+}
+
+.sign-up-container .row {
+    margin-bottom: 12px;
+}

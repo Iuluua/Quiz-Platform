@@ -1,0 +1,20 @@
+.user-data-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    margin-top: 32px;
+    margin-bottom: 100px;
+}
+
+.user-data-container h1 {
+    margin-bottom: 24px;
+}
+
+.user-data-container .input-container {
+    width: 50%;
+}
+
+.user-data-container button {
+    margin-top: 12px;
+}
