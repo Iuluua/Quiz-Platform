@@ -1,0 +1,4210 @@
+{
+  "users": [
+    {
+      "username": "mirel.b",
+      "password": "pass.123",
+      "firstName": "Mirel",
+      "lastName": "Baciu",
+      "email": "mirel.baciu@gmail.com",
+      "description": "salut",
+      "isAdmin": "false",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "username": "maria.p",
+      "password": "pass.123",
+      "firstName": "Maria",
+      "lastName": "Popescu",
+      "email": "maria.popescu@gmail.com",
+      "description": "",
+      "isAdmin": false
+    },
+    {
+      "username": "ioana.p",
+      "password": "pass.123",
+      "firstName": "Ioana",
+      "lastName": "Popa",
+      "email": "ioana.popa@gmail.com",
+      "description": "Salut, eu sunt Ioana Popa",
+      "isAdmin": "false",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "username": "ion.p",
+      "password": "pass.123",
+      "firstName": "Ion",
+      "lastName": "Pop",
+      "email": "ion.pop@gmail.com",
+      "description": "empty",
+      "isAdmin": true
+    },
+    {
+      "username": "ionel.p",
+      "password": "pass.123",
+      "firstName": "Ionel",
+      "lastName": "Popa",
+      "email": "ionel.popa@gmail.com",
+      "description": "empty",
+      "isAdmin": false,
+      "id": 5
+    },
+    {
+      "username": "ionel.p",
+      "password": "pass.123",
+      "firstName": "Ionel",
+      "lastName": "Popescu",
+      "email": "ionel.popescu@gmail.com",
+      "description": "empty",
+      "isAdmin": false,
+      "id": 6
+    },
+    {
+      "username": "maria.p",
+      "password": "pass.123",
+      "firstName": "Maria",
+      "lastName": "Pop",
+      "email": "maria.pop@gmail.com",
+      "description": "Salut eu sunt Maria Pop",
+      "isAdmin": "false",
+      "id": 7
+    },
+    {
+      "username": "mirabel.i",
+      "password": "pass.123",
+      "firstName": "Mirabel",
+      "lastName": "Indoielnicul",
+      "email": "mirabel.indoielnicul@gmail.com",
+      "description": "salutare",
+      "isAdmin": "false",
+      "id": 8
+    },
+    {
+      "username": "ionela.p",
+      "password": "pass.123",
+      "firstName": "Ionela",
+      "lastName": "Princip",
+      "email": "ionela.princip@gmail.com",
+      "description": "empty",
+      "isAdmin": "false",
+      "id": 9
+    },
+    {
+      "username": "mirabela.i",
+      "password": "pass.123",
+      "firstName": "Mirabela",
+      "lastName": "Ionescu",
+      "email": "mirabela.ionescu@gmail.com",
+      "description": "Salut, eu sunt Mirabela Ionescu si aceasta este noua mea descriere",
+      "isAdmin": "false",
+      "id": 10
+    },
+    {
+      "username": "andrei.m",
+      "password": "",
+      "firstName": "borsuk",
+      "lastName": "maresiu",
+      "email": "andrei.maresiu@gmail.com",
+      "description": "",
+      "isAdmin": "false",
+      "id": 11
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "When Gmail first launched, how much storage did it provide for your email?",
+      "correct_answer": "1GB",
+      "incorrect_answers": [
+        "512MB",
+        "5GB",
+        "Unlimited"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "In the programming language Java, which of these keywords would you put on a variable to make sure it doesn't get modified?",
+      "correct_answer": "Final",
+      "incorrect_answers": [
+        "Static",
+        "Private",
+        "Public"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What is the code name for the mobile operating system Android 7.0?",
+      "correct_answer": "Nougat",
+      "incorrect_answers": [
+        "Ice Cream Sandwich",
+        "Jelly Bean",
+        "Marshmallow"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which computer language would you associate Django framework with?",
+      "correct_answer": "Python",
+      "incorrect_answers": [
+        "C#",
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "This mobile OS held the largest market share in 2012.",
+      "correct_answer": "iOS",
+      "incorrect_answers": [
+        "Android",
+        "BlackBerry",
+        "Symbian"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "How long is an IPv6 address?",
+      "correct_answer": "128 bits",
+      "incorrect_answers": [
+        "32 bits",
+        "64 bits",
+        "128 bytes"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "In computing, what does MIDI stand for?",
+      "correct_answer": "Musical Instrument Digital Interface",
+      "incorrect_answers": [
+        "Musical Interface of Digital Instruments",
+        "Modular Interface of Digital Instruments",
+        "Musical Instrument Data Interface"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "In computing, what does LAN stand for?",
+      "correct_answer": "Local Area Network",
+      "incorrect_answers": [
+        "Long Antenna Node",
+        "Light Access Node",
+        "Land Address Navigation"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What language does Node.js use?",
+      "correct_answer": "JavaScript",
+      "incorrect_answers": [
+        "Java",
+        "Java Source",
+        "Joomla Source Code"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What does the computer software acronym JVM stand for?",
+      "correct_answer": "Java Virtual Machine",
+      "incorrect_answers": [
+        "Java Vendor Machine",
+        "Java Visual Machine",
+        "Just Virtual Machine"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+      "correct_answer": "C#",
+      "incorrect_answers": [
+        "Java",
+        "C++",
+        "Objective-C"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Nvidia's headquarters are based in which Silicon Valley city?",
+      "correct_answer": "Santa Clara",
+      "incorrect_answers": [
+        "Palo Alto",
+        "Cupertino",
+        "Mountain View"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "On which day did the World Wide Web go online?",
+      "correct_answer": "December 20, 1990",
+      "incorrect_answers": [
+        "December 17, 1996",
+        "November 12, 1990",
+        "November 24, 1995"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "How many cores does the Intel i7-6950X have?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "12",
+        "8",
+        "4"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "In the server hosting industry IaaS stands for...",
+      "correct_answer": "Infrastructure as a Service",
+      "incorrect_answers": [
+        "Internet as a Service",
+        "Internet and a Server",
+        "Infrastructure as a Server"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "When did the online streaming service 'Mixer' launch?",
+      "correct_answer": "2016",
+      "incorrect_answers": [
+        "2013",
+        "2009",
+        "2011"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which programming language was developed by Sun Microsystems in 1995?",
+      "correct_answer": "Java",
+      "incorrect_answers": [
+        "Python",
+        "Solaris OS",
+        "C++"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Approximately how many Apple I personal computers were created?",
+      "correct_answer": "200",
+      "incorrect_answers": [
+        "100",
+        "500",
+        "1000"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "In programming, what do you call functions with the same name but different implementations?",
+      "correct_answer": "Overloading",
+      "incorrect_answers": [
+        "Overriding",
+        "Abstracting",
+        "Inheriting"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "The teapot often seen in many 3D modeling applications is called what?",
+      "correct_answer": "Utah Teapot",
+      "incorrect_answers": [
+        "Pixar Teapot",
+        "3D Teapot",
+        "Tennessee Teapot"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "The Harvard architecture for micro-controllers added which additional bus?",
+      "correct_answer": "Instruction",
+      "incorrect_answers": [
+        "Address",
+        "Data",
+        "Control"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What was the name of the security vulnerability found in Bash in 2014?",
+      "correct_answer": "Shellshock",
+      "incorrect_answers": [
+        "Heartbleed",
+        "Bashbug",
+        "Stagefright"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "How many Hz does the video standard PAL support?",
+      "correct_answer": "50",
+      "incorrect_answers": [
+        "59",
+        "60",
+        "25"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": [
+        "Enceladus",
+        "Pollux",
+        "Saturn"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Who is the original author of the realtime physics engine called PhysX?",
+      "correct_answer": "NovodeX",
+      "incorrect_answers": [
+        "Ageia",
+        "Nvidia",
+        "AMD"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What internet protocol was documented in RFC 1459?",
+      "correct_answer": "IRC",
+      "incorrect_answers": [
+        "HTTP",
+        "HTTPS",
+        "FTP"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What does the International System of Quantities refer 1024 bytes as?",
+      "correct_answer": "Kibibyte",
+      "incorrect_answers": [
+        "Kylobyte",
+        "Kilobyte",
+        "Kelobyte"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the name given to layer 4 of the Open Systems Interconnection (ISO) model?",
+      "correct_answer": "Transport",
+      "incorrect_answers": [
+        "Session",
+        "Data link",
+        "Network"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "According to DeMorgan's Theorem, the Boolean expression (AB)' is equivalent to:",
+      "correct_answer": "A' + B'",
+      "incorrect_answers": [
+        "A' + B'A",
+        "A'B'",
+        "AB' + AB"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "Science: Computers",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which kind of algorithm is Ron Rivest not famous for creating?",
+      "correct_answer": "Secret sharing scheme",
+      "incorrect_answers": [
+        "Hashing algorithm",
+        "Asymmetric encryption",
+        "Stream cipher"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which of the following bones is not in the leg?",
+      "correct_answer": "Radius",
+      "incorrect_answers": [
+        "Patella",
+        "Tibia",
+        "Fibula "
+      ]
+    },
+    {
+      "id": 32,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Rhinoplasty is a surgical procedure on what part of the human body?",
+      "correct_answer": "Nose",
+      "incorrect_answers": [
+        "Ears",
+        "Chin",
+        "Neck"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which gas forms about 78% of the Earth's atmosphere?",
+      "correct_answer": "Nitrogen",
+      "incorrect_answers": [
+        "Oxygen",
+        "Argon",
+        "Carbon Dioxide"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Alzheimer's disease primarily affects which part of the human body?",
+      "correct_answer": "Brain",
+      "incorrect_answers": [
+        "Lungs",
+        "Skin",
+        "Heart"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which is the most abundant element in the universe?",
+      "correct_answer": "Hydrogen",
+      "incorrect_answers": [
+        "Helium",
+        "Lithium",
+        "Oxygen"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which element has the highest melting point?",
+      "correct_answer": "Carbon",
+      "incorrect_answers": [
+        "Tungsten",
+        "Platinum",
+        "Osmium"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "How many chromosomes are in your body cells?",
+      "correct_answer": "23",
+      "incorrect_answers": [
+        "21",
+        "22",
+        "24"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What is the standard atomic weight of a Plutonium nucleus?",
+      "correct_answer": "244",
+      "incorrect_answers": [
+        "94",
+        "481",
+        "128"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What animal takes part in Schrödinger's most famous thought experiment?",
+      "correct_answer": "Cat",
+      "incorrect_answers": [
+        "Dog",
+        "Bat",
+        "Butterfly"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which of these Elements is a metalloid?",
+      "correct_answer": "Antimony",
+      "incorrect_answers": [
+        "Tin",
+        "Bromine",
+        "Rubidium"
+      ]
+    },
+    {
+      "id": 41,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What mineral has the lowest number on the Mohs scale?",
+      "correct_answer": "Talc",
+      "incorrect_answers": [
+        "Quartz",
+        "Diamond",
+        "Gypsum"
+      ]
+    },
+    {
+      "id": 42,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Gannymede is the largest moon of which planet?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Uranus",
+        "Neptune",
+        "Mars"
+      ]
+    },
+    {
+      "id": 43,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Where did the dog breed 'Chihuahua' originate?",
+      "correct_answer": "Mexico",
+      "incorrect_answers": [
+        "France",
+        "Spain",
+        "Russia"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Deuterium is an isotope of which element?",
+      "correct_answer": "Hydrogen",
+      "incorrect_answers": [
+        "Nitrogen",
+        "Helium",
+        "Neon"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Approximately how long is a year on Uranus?",
+      "correct_answer": "84 Earth years",
+      "incorrect_answers": [
+        "47 Earth years",
+        "62 Earth years",
+        "109 Earth years"
+      ]
+    },
+    {
+      "id": 46,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Down Syndrome is usually caused by an extra copy of which chromosome?",
+      "correct_answer": "21",
+      "incorrect_answers": [
+        "23",
+        "15",
+        "24"
+      ]
+    },
+    {
+      "id": 47,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What is the scientific term for 'taste'?",
+      "correct_answer": "Gustatory Perception",
+      "incorrect_answers": [
+        "Olfaction",
+        "Somatosensation",
+        "Auditory Perception"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What is the name of the cognitive bias wherein a person with low ability in a particular skill mistake themselves as being superior?",
+      "correct_answer": "Dunning-Kruger effect",
+      "incorrect_answers": [
+        "Meyers-Briggs effect",
+        "Müller-Lyer effect",
+        "Freud-Hall effect"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "When was the first mammal successfully cloned?",
+      "correct_answer": "1996",
+      "incorrect_answers": [
+        "2009",
+        "1999",
+        "1985"
+      ]
+    },
+    {
+      "id": 50,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "How old is the universe?",
+      "correct_answer": "13.8 Billion Years",
+      "incorrect_answers": [
+        "4.5 Billion Years",
+        "7.9 Billion Years",
+        "16.2 Billion Years"
+      ]
+    },
+    {
+      "id": 51,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which horizon in a soil profile consists of bedrock?",
+      "correct_answer": "R",
+      "incorrect_answers": [
+        "O",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "id": 52,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is isobutylphenylpropanoic acid more commonly known as?",
+      "correct_answer": "Ibuprofen",
+      "incorrect_answers": [
+        "Morphine",
+        "Ketamine",
+        "Aspirin"
+      ]
+    },
+    {
+      "id": 53,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which one of these is scientific term for 'Brain Freeze'?",
+      "correct_answer": "Sphenopalatine Ganglioneuralgia",
+      "incorrect_answers": [
+        "Hyacinthoides Italica",
+        "Amaranthus Retroflexus",
+        "Amblyomma Americanum"
+      ]
+    },
+    {
+      "id": 54,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "'The Big Bang Theory' was first theorized by a priest of what religious ideology?",
+      "correct_answer": "Catholic",
+      "incorrect_answers": [
+        "Christian",
+        "Jewish",
+        "Islamic"
+      ]
+    },
+    {
+      "id": 55,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which of these is a stop codon in DNA?",
+      "correct_answer": "TAA",
+      "incorrect_answers": [
+        "ACT",
+        "ACA",
+        "GTA"
+      ]
+    },
+    {
+      "id": 56,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the same in Celsius and Fahrenheit?",
+      "correct_answer": "-40",
+      "incorrect_answers": [
+        "32",
+        "-39",
+        "-42"
+      ]
+    },
+    {
+      "id": 57,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Botanically speaking, which of these fruits is NOT a berry?",
+      "correct_answer": "Strawberry",
+      "incorrect_answers": [
+        "Blueberry",
+        "Banana",
+        "Concord Grape"
+      ]
+    },
+    {
+      "id": 58,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the scientific name for the extinct hominin known as 'Lucy'?",
+      "correct_answer": "Australopithecus Afarensis",
+      "incorrect_answers": [
+        "Australopithecus Africanus",
+        "Australopithecus Architeuthis",
+        "Australopithecus Antaris"
+      ]
+    },
+    {
+      "id": 59,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Autosomal-dominant Compelling Helio-Ophthalmic Outburst syndrome is the need to do what when seeing the Sun?",
+      "correct_answer": "Sneeze",
+      "incorrect_answers": [
+        "Cough",
+        "Yawn",
+        "Hiccup"
+      ]
+    },
+    {
+      "id": 60,
+      "category": "Science & Nature",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the most potent toxin known?",
+      "correct_answer": "Botulinum toxin",
+      "incorrect_answers": [
+        "Ricin",
+        "Cyanide",
+        "Asbestos"
+      ]
+    },
+    {
+      "id": 61,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What is the capital of Indonesia?",
+      "correct_answer": "Jakarta",
+      "incorrect_answers": [
+        "Bandung",
+        "Medan",
+        "Palembang"
+      ]
+    },
+    {
+      "id": 62,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which of these is NOT an Australian state or territory?",
+      "correct_answer": "Alberta",
+      "incorrect_answers": [
+        "New South Wales",
+        "Victoria",
+        "Queensland"
+      ]
+    },
+    {
+      "id": 63,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What is the capital of Jamaica?",
+      "correct_answer": "Kingston",
+      "incorrect_answers": [
+        "San Juan",
+        "Port-au-Prince",
+        "Bridgetown"
+      ]
+    },
+    {
+      "id": 64,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What is the only state in the United States that does not have a flag in a shape with 4 edges?",
+      "correct_answer": "Ohio",
+      "incorrect_answers": [
+        "Florida",
+        "Idaho",
+        "New Mexico"
+      ]
+    },
+    {
+      "id": 65,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "How many time zones does China have?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "3",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "id": 66,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "How many countries does the United States share a land border with?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": 67,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What is the largest country in the world?",
+      "correct_answer": "Russia",
+      "incorrect_answers": [
+        "Canada",
+        "China",
+        "United States"
+      ]
+    },
+    {
+      "id": 68,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "The Alps are a mountain range on which continent?",
+      "correct_answer": "Europe",
+      "incorrect_answers": [
+        "North America",
+        "Asia",
+        "Africa"
+      ]
+    },
+    {
+      "id": 69,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "The longest shared border in the world can be found between which two nations?",
+      "correct_answer": "Canada and the United States",
+      "incorrect_answers": [
+        "Chile and Argentina",
+        "Russia and China",
+        "India and Pakistan"
+      ]
+    },
+    {
+      "id": 70,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What is the largest country in the world ?",
+      "correct_answer": "Russian Federation",
+      "incorrect_answers": [
+        "China",
+        "Canada",
+        "Brazil"
+      ]
+    },
+    {
+      "id": 71,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which of the following countries banned the use of personal genetic ancestry tests?",
+      "correct_answer": "Germany",
+      "incorrect_answers": [
+        "Austria",
+        "Canada",
+        "Sweden"
+      ]
+    },
+    {
+      "id": 72,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Where is the area commonly known as the Bermuda Triangle?",
+      "correct_answer": "North Atlantic Ocean, between Florida and Puerto Rico",
+      "incorrect_answers": [
+        "North Pacific Ocean, between Japan and the USA",
+        "In the Caribbean Sea",
+        "South Pacific Ocean, far off Chile"
+      ]
+    },
+    {
+      "id": 73,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "How many countries does Spain have a land border with?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": 74,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What is the capital of Slovakia?",
+      "correct_answer": "Bratislava",
+      "incorrect_answers": [
+        "Sofia",
+        "Ljubljana",
+        "Sarajevo"
+      ]
+    },
+    {
+      "id": 75,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What is the largest Muslim country in the world?",
+      "correct_answer": "Indonesia",
+      "incorrect_answers": [
+        "Pakistan",
+        "Saudi Arabia",
+        "Iran"
+      ]
+    },
+    {
+      "id": 76,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "How many independent countries are there within the continent of South America?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": 77,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which of these country's capitals starts with the letter B?",
+      "correct_answer": "Lebanon",
+      "incorrect_answers": [
+        "Jordan",
+        "Kuwait",
+        "Qatar"
+      ]
+    },
+    {
+      "id": 78,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "How many countries share a land border with Luxembourg?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "4",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": 79,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which English county will you find the University of East Anglia?",
+      "correct_answer": "Norfolk",
+      "incorrect_answers": [
+        "Suffolk",
+        "Essex",
+        "Cambridgeshire"
+      ]
+    },
+    {
+      "id": 80,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Where is Hadrian's Wall located?",
+      "correct_answer": "Carlisle, England",
+      "incorrect_answers": [
+        "Rome, Italy",
+        "Alexandria, Egypt",
+        "Dublin, Ireland"
+      ]
+    },
+    {
+      "id": 81,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which of these countries is NOT a part of the Asian continent?",
+      "correct_answer": "Suriname",
+      "incorrect_answers": [
+        "Georgia",
+        "Russia",
+        "Singapore"
+      ]
+    },
+    {
+      "id": 82,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which of these island countries is located in the Caribbean?",
+      "correct_answer": "Barbados",
+      "incorrect_answers": [
+        "Fiji",
+        "Maldives",
+        "Seychelles"
+      ]
+    },
+    {
+      "id": 83,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "In 2012 the German-speaking microstate 'Liechtenstein' in Central Europe had a population of how many inhabitants?",
+      "correct_answer": "36,600",
+      "incorrect_answers": [
+        "2,400",
+        "90,000",
+        "323,400"
+      ]
+    },
+    {
+      "id": 84,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "The Hunua Ranges is located in...",
+      "correct_answer": "New Zealand",
+      "incorrect_answers": [
+        "Nepal",
+        "China",
+        "Mexico"
+      ]
+    },
+    {
+      "id": 85,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What city is known as the Rose Capital of the World?",
+      "correct_answer": "Tyler, Texas",
+      "incorrect_answers": [
+        "San Diego, California",
+        "Miami, Florida",
+        "Anaheim, California"
+      ]
+    },
+    {
+      "id": 86,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the name of the Canadian national anthem?",
+      "correct_answer": "O Canada",
+      "incorrect_answers": [
+        "O Red Maple",
+        "Leaf-Spangled Banner",
+        "March of the Puck Drop"
+      ]
+    },
+    {
+      "id": 87,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+      "correct_answer": "Grand Banks",
+      "incorrect_answers": [
+        "Great Barrier Reef",
+        "Mariana Trench",
+        "Hudson Bay"
+      ]
+    },
+    {
+      "id": 88,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the land connecting North America and South America?",
+      "correct_answer": "Isthmus of Panama",
+      "incorrect_answers": [
+        "Isthmus of Suez",
+        "Urals",
+        "Australasia"
+      ]
+    },
+    {
+      "id": 89,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the most common climbing route for the second highest mountain in the world, K2?",
+      "correct_answer": "Abruzzi Spur",
+      "incorrect_answers": [
+        "Magic Line",
+        "Cesen Route",
+        "Polish Line"
+      ]
+    },
+    {
+      "id": 90,
+      "category": "Geography",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which of these is NOT a real tectonic plate?",
+      "correct_answer": "Atlantic Plate",
+      "incorrect_answers": [
+        "North American Plate",
+        "Eurasian Plate",
+        "Nazca Plate"
+      ]
+    },
+    {
+      "id": 91,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "The idea of Socialism was articulated and advanced by whom?",
+      "correct_answer": "Karl Marx",
+      "incorrect_answers": [
+        "Vladimir Lenin",
+        "Joseph Stalin",
+        "Vladimir Putin"
+      ]
+    },
+    {
+      "id": 92,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "In what year did the Wall Street Crash take place?",
+      "correct_answer": "1929",
+      "incorrect_answers": [
+        "1932",
+        "1930",
+        "1925"
+      ]
+    },
+    {
+      "id": 93,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Who was the first prime minister of Canada?",
+      "correct_answer": "John Macdonald",
+      "incorrect_answers": [
+        "John Abbott",
+        "Alexander Mackenzie",
+        "Robert Borden"
+      ]
+    },
+    {
+      "id": 94,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "How was Socrates executed?",
+      "correct_answer": "Poison",
+      "incorrect_answers": [
+        "Decapitation",
+        "Firing squad",
+        "Crucifixion "
+      ]
+    },
+    {
+      "id": 95,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "How long did World War II last?",
+      "correct_answer": "6 years",
+      "incorrect_answers": [
+        "4 years",
+        "5 years",
+        "7 years"
+      ]
+    },
+    {
+      "id": 96,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "The 'Trail of Tears' was a result of which United States President's Indian Removal Policy?",
+      "correct_answer": "Andrew Jackson",
+      "incorrect_answers": [
+        "Harry S. Truman",
+        "Martin Van Buren",
+        "John Quincy Adams"
+      ]
+    },
+    {
+      "id": 97,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Who led the Communist Revolution of Russia?",
+      "correct_answer": "Vladimir Lenin",
+      "incorrect_answers": [
+        "Joseph Stalin",
+        "Vladimir Putin",
+        "Mikhail Gorbachev"
+      ]
+    },
+    {
+      "id": 98,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "The Ottoman Empire was dissolved after their loss in which war?",
+      "correct_answer": "World War I",
+      "incorrect_answers": [
+        "Crimean War",
+        "Serbian Revolution",
+        "Second Balkan War"
+      ]
+    },
+    {
+      "id": 99,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+      "correct_answer": "Hannibal",
+      "incorrect_answers": [
+        "Garmanicus",
+        "Alexander the Great",
+        "Tiberius"
+      ]
+    },
+    {
+      "id": 100,
+      "category": "History",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Who was the first American in space?",
+      "correct_answer": "Alan Shephard",
+      "incorrect_answers": [
+        "Neil Armstrong",
+        "John Glenn",
+        "Jim Lovell"
+      ]
+    },
+    {
+      "id": 101,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "The Spitfire L.F. Mk IX had what engine?",
+      "correct_answer": "Merlin 66",
+      "incorrect_answers": [
+        "Griffon 65",
+        "Merlin 50",
+        "Merlin X"
+      ]
+    },
+    {
+      "id": 102,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "When was the United States National Security Agency established?",
+      "correct_answer": "November 4, 1952",
+      "incorrect_answers": [
+        "July 26, 1908",
+        " July 1, 1973",
+        " November 25, 2002"
+      ]
+    },
+    {
+      "id": 103,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "When did the Battle of the Bulge end?",
+      "correct_answer": "January 25, 1945",
+      "incorrect_answers": [
+        "August 6, 1945",
+        "December 7, 1941",
+        "December 16, 1944"
+      ]
+    },
+    {
+      "id": 104,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What year were the Marian Reforms instituted in the Roman Republic?",
+      "correct_answer": "107 BCE",
+      "incorrect_answers": [
+        "42 BCE",
+        "264 BCE",
+        "102 CE"
+      ]
+    },
+    {
+      "id": 105,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which of the following snipers has the highest amount of confirmed kills?",
+      "correct_answer": "Simo Häyhä",
+      "incorrect_answers": [
+        "Chris Kyle",
+        "Vasily Zaytsev",
+        "Craig Harrison"
+      ]
+    },
+    {
+      "id": 106,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "When did the United States formally declare war on Japan, entering World War II?",
+      "correct_answer": "December 8, 1941",
+      "incorrect_answers": [
+        "June 6, 1944",
+        "June 22, 1941",
+        "September 1, 1939"
+      ]
+    },
+    {
+      "id": 107,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What was the total length of the Titanic?",
+      "correct_answer": "882 ft | 268.8 m",
+      "incorrect_answers": [
+        "759 ft | 231.3 m",
+        "1042 ft | 317.6 m",
+        "825 ft | 251.5 m"
+      ]
+    },
+    {
+      "id": 108,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What is the name of the ship which was only a few miles away from the RMS Titanic when it struck an iceberg on April 14, 1912?",
+      "correct_answer": "Californian",
+      "incorrect_answers": [
+        "Carpathia",
+        "Cristol",
+        "Commerce"
+      ]
+    },
+    {
+      "id": 109,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which U.S. President was famously 'attacked' by a swimming rabbit?",
+      "correct_answer": "Jimmy Carter",
+      "incorrect_answers": [
+        "Ronald Reagan",
+        "Lydon B. Johnson",
+        "Gerald Ford"
+      ]
+    },
+    {
+      "id": 110,
+      "category": "History",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Who assassinated Archduke Franz Ferdinand?",
+      "correct_answer": "Gavrilo Princip",
+      "incorrect_answers": [
+        "Nedeljko Čabrinović",
+        "Oskar Potiorek",
+        "Ferdinand Cohen-Blind"
+      ]
+    },
+    {
+      "id": 111,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+      "correct_answer": "Battle of Midway",
+      "incorrect_answers": [
+        "Attack on Truk Island",
+        "Attack on Pearl Harbor",
+        "Battle of the Coral Sea"
+      ]
+    },
+    {
+      "id": 112,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "When was the SS or Schutzstaffel established?",
+      "correct_answer": "April 4th, 1925",
+      "incorrect_answers": [
+        "September 1st, 1941",
+        "March 8th, 1935",
+        "February 21st, 1926"
+      ]
+    },
+    {
+      "id": 113,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed 'the Kingmaker'?",
+      "correct_answer": "Richard Neville",
+      "incorrect_answers": [
+        "Richard III",
+        "Henry V",
+        "Thomas Warwick"
+      ]
+    },
+    {
+      "id": 114,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "The Second Boer War in 1899 was fought where?",
+      "correct_answer": "South Africa",
+      "incorrect_answers": [
+        "Argentina",
+        "Nepal",
+        "Bulgaria"
+      ]
+    },
+    {
+      "id": 115,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What was the real name of the Albanian national leader Skanderbeg?",
+      "correct_answer": "Gjergj Kastrioti",
+      "incorrect_answers": [
+        "Diturak Zhulati",
+        "Iskander Bejko",
+        "Mirash Krasniki"
+      ]
+    },
+    {
+      "id": 116,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "When was the 'Siege of Leningrad' lifted during World War II?",
+      "correct_answer": "January 1944",
+      "incorrect_answers": [
+        "September 1943",
+        "November 1943",
+        "March 1944"
+      ]
+    },
+    {
+      "id": 117,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "The main objective of the German operation 'Case Blue' during World War II was originally to capture what?",
+      "correct_answer": "Caucasus",
+      "incorrect_answers": [
+        "Stalingrad",
+        "Crimea",
+        "Voronezh"
+      ]
+    },
+    {
+      "id": 118,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+      "correct_answer": "March 25th",
+      "incorrect_answers": [
+        "June 1st",
+        "September 25th",
+        "December 1st"
+      ]
+    },
+    {
+      "id": 119,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Who was the first man to travel into outer space twice?",
+      "correct_answer": "Gus Grissom",
+      "incorrect_answers": [
+        "Vladimir Komarov",
+        "Charles Conrad",
+        "Yuri Gagarin"
+      ]
+    },
+    {
+      "id": 120,
+      "category": "History",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which of the following Physicists aided Nazi Germany in their production of a nuclear weapon?",
+      "correct_answer": "Werner Heisenberg",
+      "incorrect_answers": [
+        "John von Neumann",
+        "Albert Einstein",
+        "Max Planck"
+      ]
+    },
+    {
+      "id": 121,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which of these Starbound races has a Wild West culture?",
+      "correct_answer": "Novakid",
+      "incorrect_answers": [
+        "Avian",
+        "Human",
+        "Hylotl"
+      ]
+    },
+    {
+      "id": 122,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Who is the creator of the Super Smash Bros. Series?",
+      "correct_answer": "Masahiro Sakurai",
+      "incorrect_answers": [
+        "Reggie Fils-Aim&eacute;",
+        "Bill Trinen",
+        "Hideo Kojima"
+      ]
+    },
+    {
+      "id": 123,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which of these is NOT a Humongous Entertainment game franchise?",
+      "correct_answer": "Commander Keen",
+      "incorrect_answers": [
+        "Pajama Sam",
+        "Putt-Putt",
+        "Freddi Fish"
+      ]
+    },
+    {
+      "id": 124,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "What year was the game Dishonored released?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2011",
+        "2008",
+        "2013"
+      ]
+    },
+    {
+      "id": 125,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which of the following is NOT a summon in the game 'South Park: The Stick of Truth'?",
+      "correct_answer": "Towelie",
+      "incorrect_answers": [
+        "Jesus",
+        "Mr. Hankey",
+        "Mr. Slave"
+      ]
+    },
+    {
+      "id": 126,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "In the video game Overwatch, which playable character is infamous for saying 'It's high noon.'?",
+      "correct_answer": "McCree",
+      "incorrect_answers": [
+        "Hanzo",
+        "Pharah",
+        "Soldier: 76"
+      ]
+    },
+    {
+      "id": 127,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Which of the following characters from the game 'Overwatch' was revealed to be homosexual in December of 2016?",
+      "correct_answer": "Tracer",
+      "incorrect_answers": [
+        "Widowmaker",
+        "Sombra",
+        "Symmetra"
+      ]
+    },
+    {
+      "id": 128,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "Lanky, Funky, and Chunky are all characters featured in which series owned by Nintendo?",
+      "correct_answer": "Donkey Kong",
+      "incorrect_answers": [
+        "Mario",
+        "Kirby",
+        "Zelda"
+      ]
+    },
+    {
+      "id": 129,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "In Final Fantasy XIV, what is the name of the Deep Dungeon that was introduced in the expansion pack, Heavensward?",
+      "correct_answer": "Palace of the Dead",
+      "incorrect_answers": [
+        "Heaven on High",
+        "Aetherochemical Research Facility",
+        "Sunken Temple of Qarn"
+      ]
+    },
+    {
+      "id": 130,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "easy",
+      "question": "How many obsidian blocks are required to build a nether portal in Minecraft?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "14",
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": 131,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "What name did 'Mario', from 'Super Mario Brothers', originally have?",
+      "correct_answer": "Ossan",
+      "incorrect_answers": [
+        "Jumpman",
+        "Mr. Video",
+        "Mario"
+      ]
+    },
+    {
+      "id": 132,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Which football player is featured on the international cover version of the video game FIFA 16?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Wayne Rooney",
+        "David Beckham"
+      ]
+    },
+    {
+      "id": 133,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "The rights to the 'Rayman' series are owned by which company?",
+      "correct_answer": "Ubisoft",
+      "incorrect_answers": [
+        "Nintendo",
+        "EA",
+        "Sony"
+      ]
+    },
+    {
+      "id": 134,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "Capcom's survival horror title Dead Rising, canonically starts on what day of September 2006?",
+      "correct_answer": "September 19th",
+      "incorrect_answers": [
+        "September 21st",
+        "September 30th",
+        "September 14th"
+      ]
+    },
+    {
+      "id": 135,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "In PROTOTYPE 2, which of the following abilities/weapons is NOT obtained by an Evolved?",
+      "correct_answer": "Tendrils",
+      "incorrect_answers": [
+        "Blade",
+        "Bio-Bomb",
+        "Pack Leader"
+      ]
+    },
+    {
+      "id": 136,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "In the game 'Brawlhalla', what species is the character Bödvar is?",
+      "correct_answer": "Half Human / Half Bear",
+      "incorrect_answers": [
+        "A Human",
+        "Half Wolf / Half Bear",
+        "Half Tiger /  Half Human"
+      ]
+    },
+    {
+      "id": 137,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "How many different notes is the tune, 'Song of Healing', comprised of in 'The Legend of Zelda: Majora's Mask'?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "4",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "id": 138,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "When was 'System Shock' released?",
+      "correct_answer": "1994",
+      "incorrect_answers": [
+        "1995",
+        "2000",
+        "1998"
+      ]
+    },
+    {
+      "id": 139,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "From where does the Nintendo video game character Mario derive his name?",
+      "correct_answer": "The landlord of the American headquarters",
+      "incorrect_answers": [
+        "Shigeru Miyamoto&#039;s father in law",
+        "Satoru Iwata&#039;s plumber",
+        "The date (Mar 10) that Donkey Kong was released."
+      ]
+    },
+    {
+      "id": 140,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "medium",
+      "question": "How many permanent companions are there in the base game version of Fallout: New Vegas?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "7",
+        "9",
+        "6"
+      ]
+    },
+    {
+      "id": 141,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What was the code name given to Sonic the Hedgehog 4 during its development?",
+      "correct_answer": "Project Needlemouse",
+      "incorrect_answers": [
+        "Project Bluespike",
+        "Project Roboegg",
+        "Project Darksphere"
+      ]
+    },
+    {
+      "id": 142,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "In the video game 'Metal Gear Solid', what did Revolver Ocelot consider the greatest handgun ever made?",
+      "correct_answer": "Colt Single Action Army",
+      "incorrect_answers": [
+        "Colt Python",
+        "Colt M1892",
+        "Colt 1851 Navy Revolver"
+      ]
+    },
+    {
+      "id": 143,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "In Xenoblade Chronicles X, which class has a sniper rifle as it's primary weapon?",
+      "correct_answer": "Partisan Eagle",
+      "incorrect_answers": [
+        "Blast Fencer",
+        "Winged Viper",
+        "Bastion Warrior"
+      ]
+    },
+    {
+      "id": 144,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Which of these characters was considered, but ultimately not included, for Super Smash Bros. Melee?",
+      "correct_answer": "James Bond",
+      "incorrect_answers": [
+        "Diddy Kong",
+        "Mega Man",
+        "Wave Racer"
+      ]
+    },
+    {
+      "id": 145,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "In 'Starbound', what is the max HP of the monster 'Punchy'?",
+      "correct_answer": "50,000 HP",
+      "incorrect_answers": [
+        "9,000,000 HP",
+        "100 HP",
+        "150,000 HP"
+      ]
+    },
+    {
+      "id": 146,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "In 'Team Fortress 2', how much health does a scout have when overhealed?",
+      "correct_answer": "185",
+      "incorrect_answers": [
+        "215",
+        "195",
+        "225"
+      ]
+    },
+    {
+      "id": 147,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the real name of 'Warhead' in the Sega Genesis game 'Vectorman'?",
+      "correct_answer": "Raster",
+      "incorrect_answers": [
+        "Peacehead",
+        "Vectorkid",
+        "Bitmap"
+      ]
+    },
+    {
+      "id": 148,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "What is the name of the alien species introduced in Shadow the Hedgehog (2005)?",
+      "correct_answer": "Black Arms",
+      "incorrect_answers": [
+        "The Swarm",
+        "Black Hive",
+        "The Eclipse"
+      ]
+    },
+    {
+      "id": 149,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "Who is the victim mentioned in the second KG-8 incident, in Ace attorney Investigations, Case 4?",
+      "correct_answer": "Deid Mann",
+      "incorrect_answers": [
+        "Frank Sahwit",
+        "Shey De Killer",
+        "Raymond Shields"
+      ]
+    },
+    {
+      "id": 150,
+      "category": "Entertainment: Video Games",
+      "language": "en",
+      "difficulty": "hard",
+      "question": "In the game Warframe, what Mastery Rank do you need to have to build the Tigris Prime?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "6",
+        "18",
+        "10"
+      ]
+    },
+    {
+      "id": 151,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Când Gmail a fost lansat pentru prima dată, cât spațiu de stocare a oferit pentru e-mail?",
+      "correct_answer": "1GB",
+      "incorrect_answers": [
+        "512MB",
+        "5GB",
+        "Unlimited"
+      ]
+    },
+    {
+      "id": 152,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "În limbajul de programare Java, care dintre aceste cuvinte cheie ați pune pe o variabilă pentru a vă asigura că nu se modifică?",
+      "correct_answer": "Final",
+      "incorrect_answers": [
+        "Static",
+        "Private",
+        "Public"
+      ]
+    },
+    {
+      "id": 153,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este numele de cod pentru sistemul de operare mobil Android 7.0?",
+      "correct_answer": "Nougat",
+      "incorrect_answers": [
+        "Ice Cream Sandwich",
+        "Jelly Bean",
+        "Marshmallow"
+      ]
+    },
+    {
+      "id": 154,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cu ce limbaj de programare ați asocia framework-ul Django?",
+      "correct_answer": "Python",
+      "incorrect_answers": [
+        "C#",
+        "C++",
+        "Java"
+      ]
+    },
+    {
+      "id": 155,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Acest sistem de operare mobil a deținut cea mai mare cotă de piață în 2012.",
+      "correct_answer": "iOS",
+      "incorrect_answers": [
+        "Android",
+        "BlackBerry",
+        "Symbian"
+      ]
+    },
+    {
+      "id": 156,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cat spatiu ocupa o adresa IPv6",
+      "correct_answer": "128 bits",
+      "incorrect_answers": [
+        "32 bits",
+        "64 bits",
+        "128 bytes"
+      ]
+    },
+    {
+      "id": 157,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "În informatică, ce înseamnă MIDI?",
+      "correct_answer": "Musical Instrument Digital Interface",
+      "incorrect_answers": [
+        "Musical Interface of Digital Instruments",
+        "Modular Interface of Digital Instruments",
+        "Musical Instrument Data Interface"
+      ]
+    },
+    {
+      "id": 158,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "În informatică, ce înseamnă LAN?",
+      "correct_answer": "Local Area Network",
+      "incorrect_answers": [
+        "Long Antenna Node",
+        "Light Access Node",
+        "Land Address Navigation"
+      ]
+    },
+    {
+      "id": 159,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Ce limbaj de programare folosește Node.js?",
+      "correct_answer": "JavaScript",
+      "incorrect_answers": [
+        "Java",
+        "Java Source",
+        "Joomla Source Code"
+      ]
+    },
+    {
+      "id": 160,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Ce înseamnă acronimul JVM din informatica?",
+      "correct_answer": "Java Virtual Machine",
+      "incorrect_answers": [
+        "Java Vendor Machine",
+        "Java Visual Machine",
+        "Just Virtual Machine"
+      ]
+    },
+    {
+      "id": 161,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care dintre următoarele limbaje sunt folosite ca limbaj de scriptare în game engine-ul Unity 3D?",
+      "correct_answer": "C#",
+      "incorrect_answers": [
+        "Java",
+        "C++",
+        "Objective-C"
+      ]
+    },
+    {
+      "id": 162,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Sediul central NVIDIA este situat în ce oraș din Silicon Valley?",
+      "correct_answer": "Santa Clara",
+      "incorrect_answers": [
+        "Palo Alto",
+        "Cupertino",
+        "Mountain View"
+      ]
+    },
+    {
+      "id": 163,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "În ce zi a fost online pentru prima data World Wide Web?",
+      "correct_answer": "20 decembrie, 1990",
+      "incorrect_answers": [
+        "17 decembrie, 1996",
+        "12 noiembrie, 1990",
+        "24 noiembrie, 1995"
+      ]
+    },
+    {
+      "id": 164,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Câte nuclee are Intel i7-6950X?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "12",
+        "8",
+        "4"
+      ]
+    },
+    {
+      "id": 165,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "În industria de găzduire a serverelor, IaaS înseamnă...",
+      "correct_answer": "Infrastructure as a Service",
+      "incorrect_answers": [
+        "Internet as a Service",
+        "Internet and a Server",
+        "Infrastructure as a Server"
+      ]
+    },
+    {
+      "id": 166,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Când a fost lansat serviciul de streaming online & quot; Mixer & quot?",
+      "correct_answer": "2016",
+      "incorrect_answers": [
+        "2013",
+        "2009",
+        "2011"
+      ]
+    },
+    {
+      "id": 167,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Ce limbaj de programare a fost dezvoltat de Sun Microsystems în 1995?",
+      "correct_answer": "Java",
+      "incorrect_answers": [
+        "Python",
+        "Solaris OS",
+        "C++"
+      ]
+    },
+    {
+      "id": 168,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Câte computere personale Apple I au fost create?",
+      "correct_answer": "200",
+      "incorrect_answers": [
+        "100",
+        "500",
+        "1000"
+      ]
+    },
+    {
+      "id": 169,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "În programare, cum se numesc funcții cu același nume, dar implementări diferite?",
+      "correct_answer": "Overloading",
+      "incorrect_answers": [
+        "Overriding",
+        "Abstracting",
+        "Inheriting"
+      ]
+    },
+    {
+      "id": 170,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Ceainicul adesea văzut în multe aplicații de modelare 3D se numește...",
+      "correct_answer": "Utah Teapot",
+      "incorrect_answers": [
+        "Pixar Teapot",
+        "3D Teapot",
+        "Tennessee Teapot"
+      ]
+    },
+    {
+      "id": 171,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Arhitectura Harvard pentru micro-controlere a adăugat care bus suplimentar?",
+      "correct_answer": "Instruction",
+      "incorrect_answers": [
+        "Address",
+        "Data",
+        "Control"
+      ]
+    },
+    {
+      "id": 172,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care a fost numele vulnerabilității de securitate găsită în Bash în 2014?",
+      "correct_answer": "Shellshock",
+      "incorrect_answers": [
+        "Heartbleed",
+        "Bashbug",
+        "Stagefright"
+      ]
+    },
+    {
+      "id": 173,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Câte Hz acceptă standardul video PAL?",
+      "correct_answer": "50",
+      "incorrect_answers": [
+        "59",
+        "60",
+        "25"
+      ]
+    },
+    {
+      "id": 174,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre aceste nume a fost un nume de cod real pentru un proiect Microsoft anulat?",
+      "correct_answer": "Neptune",
+      "incorrect_answers": [
+        "Enceladus",
+        "Pollux",
+        "Saturn"
+      ]
+    },
+    {
+      "id": 175,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Cine este autorul original al engine-ului de fizică în timp real numit PhysX?",
+      "correct_answer": "NovodeX",
+      "incorrect_answers": [
+        "Ageia",
+        "Nvidia",
+        "AMD"
+      ]
+    },
+    {
+      "id": 176,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Ce protocol de internet a fost documentat în RFC 1459?",
+      "correct_answer": "IRC",
+      "incorrect_answers": [
+        "HTTP",
+        "HTTPS",
+        "FTP"
+      ]
+    },
+    {
+      "id": 177,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Cum se referă sistemul Internațional de cantități 1024 bytes?",
+      "correct_answer": "Kibibyte",
+      "incorrect_answers": [
+        "Kylobyte",
+        "Kilobyte",
+        "Kelobyte"
+      ]
+    },
+    {
+      "id": 178,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care este numele dat nivelului 4 al modelului Open Systems Interconnection (ISO)?",
+      "correct_answer": "Transport",
+      "incorrect_answers": [
+        "Session",
+        "Data link",
+        "Network"
+      ]
+    },
+    {
+      "id": 179,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Conform teoremei lui DeMorgan ', expresia booleană (AB) '; este echivalentă",
+      "correct_answer": "A' + B'",
+      "incorrect_answers": [
+        "A'B + B'A",
+        "A'B'",
+        "AB' + AB"
+      ]
+    },
+    {
+      "id": 180,
+      "category": "Science: Computers",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Pentru crearea carui algoritm Ron Rivest nu este faimos?",
+      "correct_answer": "Secret sharing scheme",
+      "incorrect_answers": [
+        "Hashing algorithm",
+        "Asymmetric encryption",
+        "Stream cipher"
+      ]
+    },
+    {
+      "id": 181,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care dintre următoarele oase nu apartine piciorului?",
+      "correct_answer": "Osul radiusului",
+      "incorrect_answers": [
+        "Tipsia",
+        "Tibia",
+        "Fibula "
+      ]
+    },
+    {
+      "id": 182,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Rinoplastia este o procedură chirurgicală pe care parte a corpului uman?",
+      "correct_answer": "Nasul",
+      "incorrect_answers": [
+        "Urechile",
+        "Barbia",
+        "Gatul"
+      ]
+    },
+    {
+      "id": 183,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Ce gaz formează aproximativ 78% din atmosfera Pământului și a rsquo-ului?",
+      "correct_answer": "Azot",
+      "incorrect_answers": [
+        "Oxigen",
+        "Argon",
+        "Dioxid de Carbon"
+      ]
+    },
+    {
+      "id": 184,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care parte a corpului uman este afectata de boala Alzheimer",
+      "correct_answer": "Creierul",
+      "incorrect_answers": [
+        "Plamanii",
+        "Pielea",
+        "Inima"
+      ]
+    },
+    {
+      "id": 185,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este cel mai abundant element din univers?",
+      "correct_answer": "Hidrogen",
+      "incorrect_answers": [
+        "Heliu",
+        "Litiu",
+        "Oxigen"
+      ]
+    },
+    {
+      "id": 186,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care element are cel mai înalt punct de topire?",
+      "correct_answer": "Carbon",
+      "incorrect_answers": [
+        "Tungsten",
+        "Platina",
+        "Osmiu"
+      ]
+    },
+    {
+      "id": 187,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Câți cromozomi sunt în celulele corpului?",
+      "correct_answer": "23",
+      "incorrect_answers": [
+        "21",
+        "22",
+        "24"
+      ]
+    },
+    {
+      "id": 188,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este greutatea atomică standard a unui nucleu de plutoniu?",
+      "correct_answer": "244",
+      "incorrect_answers": [
+        "94",
+        "481",
+        "128"
+      ]
+    },
+    {
+      "id": 189,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Ce animal ia parte la cel mai faimos experiment de gândire al lui Schrödinger",
+      "correct_answer": "Pisica",
+      "incorrect_answers": [
+        "Caine",
+        "Liliac",
+        "Fluture"
+      ]
+    },
+    {
+      "id": 190,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care dintre aceste elemente este un metaloid?",
+      "correct_answer": "Antimoniu",
+      "incorrect_answers": [
+        "Staniu",
+        "Brom",
+        "Rubidiu"
+      ]
+    },
+    {
+      "id": 191,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Ce mineral are cel mai mic număr pe scara Mohs?",
+      "correct_answer": "Talc",
+      "incorrect_answers": [
+        "Cuarț",
+        "Diamant",
+        "Gips"
+      ]
+    },
+    {
+      "id": 192,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Gannymede este cea mai mare lună a cărei planetă?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Uranus",
+        "Neptun",
+        "Marte"
+      ]
+    },
+    {
+      "id": 193,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "De unde provine rasa de câini 'Chihuahua'?",
+      "correct_answer": "Mexic",
+      "incorrect_answers": [
+        "Franta",
+        "Spania",
+        "Rusia"
+      ]
+    },
+    {
+      "id": 194,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Deuteriul este un izotop al cărui element?",
+      "correct_answer": "Hidrogen",
+      "incorrect_answers": [
+        "Azot",
+        "Heliu",
+        "Neon"
+      ]
+    },
+    {
+      "id": 195,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Cât durează un an pe Uranus?",
+      "correct_answer": "84 ani pământeni",
+      "incorrect_answers": [
+        "47 ani pământeni",
+        "62 ani pământeni",
+        "109 ani pământeni"
+      ]
+    },
+    {
+      "id": 196,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Sindromul Down este de obicei cauzat de o copie suplimentară a cărui cromozom?",
+      "correct_answer": "21",
+      "incorrect_answers": [
+        "23",
+        "15",
+        "24"
+      ]
+    },
+    {
+      "id": 197,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care este termenul științific pentru 'Gust'",
+      "correct_answer": "Percepție gustativă",
+      "incorrect_answers": [
+        "Olfactie",
+        "Somatosensație",
+        "Perceptie auditiva"
+      ]
+    },
+    {
+      "id": 198,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Cum se numește prejudecata cognitivă în care o persoană cu abilități scăzute într-o anumită abilitate se consideră superioară?",
+      "correct_answer": "Efectul Dunning-Kruger",
+      "incorrect_answers": [
+        "Efectul Meyers-Briggs",
+        "Efectul Müller-Lyer",
+        "Efectul Freud-Hall"
+      ]
+    },
+    {
+      "id": 199,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Când a fost clonat primul mamifer?",
+      "correct_answer": "1996",
+      "incorrect_answers": [
+        "2009",
+        "1999",
+        "1985"
+      ]
+    },
+    {
+      "id": 200,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Cât de vechi este Universul?",
+      "correct_answer": "13.8 miliarde de ani",
+      "incorrect_answers": [
+        "4.5 miliarde de ani",
+        "7.9 miliarde de ani",
+        "16.2 miliarde de ani"
+      ]
+    },
+    {
+      "id": 201,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care orizont dintr-un profil de sol este format din rocă de bază?",
+      "correct_answer": "R",
+      "incorrect_answers": [
+        "O",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "id": 202,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Acidul isobutilfenilpropanoic mai cunoscut si ca...",
+      "correct_answer": "Ibuprofen",
+      "incorrect_answers": [
+        "Morfina",
+        "Ketamina",
+        "Aspirina"
+      ]
+    },
+    {
+      "id": 203,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre acestea este termenul științific pentru 'Brain Freeze'?",
+      "correct_answer": "Sphenopalatine Ganglioneuralgia",
+      "incorrect_answers": [
+        "Hyacinthoides Italica",
+        "Amaranthus Retroflexus",
+        "Amblyomma Americanum"
+      ]
+    },
+    {
+      "id": 204,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Teoria Big Bang a fost teoretizată pentru prima dată de un preot despre ce ideologie religioasă?",
+      "correct_answer": "Catolica",
+      "incorrect_answers": [
+        "Crestina",
+        "Iudaica",
+        "Islamica"
+      ]
+    },
+    {
+      "id": 205,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre acestea este un cod STOP în ADN?",
+      "correct_answer": "TAA",
+      "incorrect_answers": [
+        "ACT",
+        "ACA",
+        "GTA"
+      ]
+    },
+    {
+      "id": 206,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Ce este la fel în grade Celsius și Fahrenheit?",
+      "correct_answer": "-40",
+      "incorrect_answers": [
+        "32",
+        "-39",
+        "-42"
+      ]
+    },
+    {
+      "id": 207,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Din punct de vedere botanic, care dintre aceste fructe NU este un fruct?",
+      "correct_answer": "Capsuna",
+      "incorrect_answers": [
+        "Afina",
+        "Banana",
+        "Concord Grape"
+      ]
+    },
+    {
+      "id": 208,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care este numele științific pentru hominizii extincți cunoscuți sub numele de 'Lucy'?",
+      "correct_answer": "Australopithecus Afarensis",
+      "incorrect_answers": [
+        "Australopithecus Africanus",
+        "Australopithecus Architeuthis",
+        "Australopithecus Antaris"
+      ]
+    },
+    {
+      "id": 209,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Sindromul Helio-Oftalmic Outburst autosomal dominant este nevoia de a face ce atunci când văd soarele?",
+      "correct_answer": "Stranutat",
+      "incorrect_answers": [
+        "Tusit",
+        "Cascat",
+        "Sughitat"
+      ]
+    },
+    {
+      "id": 210,
+      "category": "Science & Nature",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care este cea mai puternică toxină cunoscută?",
+      "correct_answer": "Toxina botulinica",
+      "incorrect_answers": [
+        "Ricina",
+        "Cianură",
+        "Azbest"
+      ]
+    },
+    {
+      "id": 211,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este capitala Indoneziei?",
+      "correct_answer": "Jakarta",
+      "incorrect_answers": [
+        "Bandung",
+        "Medan",
+        "Palembang"
+      ]
+    },
+    {
+      "id": 212,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care dintre acestea NU este un stat sau un teritoriu australian?",
+      "correct_answer": "Alberta",
+      "incorrect_answers": [
+        "New South Wales",
+        "Victoria",
+        "Queensland"
+      ]
+    },
+    {
+      "id": 213,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este capitala Jamaicăi?",
+      "correct_answer": "Kingston",
+      "incorrect_answers": [
+        "San Juan",
+        "Port-au-Prince",
+        "Bridgetown"
+      ]
+    },
+    {
+      "id": 214,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este singurul stat din Statele Unite care nu are un steag în formă de 4 margini?",
+      "correct_answer": "Ohio",
+      "incorrect_answers": [
+        "Florida",
+        "Idaho",
+        "New Mexico"
+      ]
+    },
+    {
+      "id": 215,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Câte fusuri orare are China?",
+      "correct_answer": "1",
+      "incorrect_answers": [
+        "3",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "id": 216,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cu câte țări are SUA o frontieră terestră?",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "1",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": 217,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este cea mai mare țară din lume?",
+      "correct_answer": "Rusia",
+      "incorrect_answers": [
+        "Canada",
+        "China",
+        "Statele unite"
+      ]
+    },
+    {
+      "id": 218,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Alpii sunt un lanț muntos pe ce continent?",
+      "correct_answer": "Europa",
+      "incorrect_answers": [
+        "America de nord",
+        "Asia",
+        "Africa"
+      ]
+    },
+    {
+      "id": 219,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cea mai lungă frontieră comună din lume se găsește între care două națiuni?",
+      "correct_answer": "Canada si Statele unite",
+      "incorrect_answers": [
+        "Chile si Argentina",
+        "Rusia si China",
+        "India si Pakistan"
+      ]
+    },
+    {
+      "id": 220,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care este cea mai mare tara din lume?",
+      "correct_answer": "Federatia Rusa",
+      "incorrect_answers": [
+        "China",
+        "Canada",
+        "Brazil"
+      ]
+    },
+    {
+      "id": 221,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care dintre următoarele țări a interzis utilizarea testelor genetice personale?",
+      "correct_answer": "Germania",
+      "incorrect_answers": [
+        "Austria",
+        "Canada",
+        "Suedia"
+      ]
+    },
+    {
+      "id": 222,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Unde se află zona cunoscută sub numele de Triunghiul Bermudelor?",
+      "correct_answer": "Oceanul Atlantic de Nord, intre Florida si Puerto Rico",
+      "incorrect_answers": [
+        "Oceanul Pacific de Nord, intre Japan si SUA",
+        "în Marea Caraibelor",
+        "Oceanul Pacific de Sud, departe de Chile"
+      ]
+    },
+    {
+      "id": 223,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Cu câte țări are Spania o frontieră terestră?",
+      "correct_answer": "5",
+      "incorrect_answers": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "id": 224,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care este capitala Slovaciei?",
+      "correct_answer": "Bratislava",
+      "incorrect_answers": [
+        "Sofia",
+        "Ljubljana",
+        "Sarajevo"
+      ]
+    },
+    {
+      "id": 225,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care este cea mai mare țară musulmană din lume?",
+      "correct_answer": "Indonezia",
+      "incorrect_answers": [
+        "Pakistan",
+        "Arabia Saudita",
+        "Iran"
+      ]
+    },
+    {
+      "id": 226,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Câte țări independente există pe continentul american?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "id": 227,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care dintre aceste țări și capitale încep cu litera B?",
+      "correct_answer": "Lebanon",
+      "incorrect_answers": [
+        "Jordan",
+        "Kuwait",
+        "Qatar"
+      ]
+    },
+    {
+      "id": 228,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Câte țări au o frontieră terestră cu Luxemburg?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "4",
+        "2",
+        "5"
+      ]
+    },
+    {
+      "id": 229,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Ce județ din Anglia veți găsi la Universitatea din Anglia de Est?",
+      "correct_answer": "Norfolk",
+      "incorrect_answers": [
+        "Suffolk",
+        "Essex",
+        "Cambridgeshire"
+      ]
+    },
+    {
+      "id": 230,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Unde se află zidul lui Hadrian",
+      "correct_answer": "Carlisle, Anglia",
+      "incorrect_answers": [
+        "Roma, Italia",
+        "Alexandria, Egipt",
+        "Dublin, Irlanda"
+      ]
+    },
+    {
+      "id": 231,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre aceste țări NU face parte din continentul asiatic?",
+      "correct_answer": "Surinam",
+      "incorrect_answers": [
+        "Georgia",
+        "Rusia",
+        "Singapore"
+      ]
+    },
+    {
+      "id": 232,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre aceste țări insulare se află în Caraibe?",
+      "correct_answer": "Barbados",
+      "incorrect_answers": [
+        "Fiji",
+        "Maldive",
+        "Seychelles"
+      ]
+    },
+    {
+      "id": 233,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "În 2012, microstatul de limbă germană Liechtenstein în Europa Centrală avea o populație de câți locuitori?",
+      "correct_answer": "36,600",
+      "incorrect_answers": [
+        "2,400",
+        "90,000",
+        "323,400"
+      ]
+    },
+    {
+      "id": 234,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Hunua Ranges este situat în...",
+      "correct_answer": "Noua Zeelandă",
+      "incorrect_answers": [
+        "Nepal",
+        "China",
+        "Mexic"
+      ]
+    },
+    {
+      "id": 235,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Ce oraș este cunoscut drept capitala Trandafirilor din lume?",
+      "correct_answer": "Tyler, Texas",
+      "incorrect_answers": [
+        "San Diego, California",
+        "Miami, Florida",
+        "Anaheim, California"
+      ]
+    },
+    {
+      "id": 236,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Cum se numește imnul național al Canadei?",
+      "correct_answer": "O Canada",
+      "incorrect_answers": [
+        "O Red Maple",
+        "Leaf-Spangled Banner",
+        "March of the Puck Drop"
+      ]
+    },
+    {
+      "id": 237,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Cum se numeste zona de pescuit din Newfoundland, Canada?",
+      "correct_answer": "Grand Banks",
+      "incorrect_answers": [
+        "Great Barrier Reef",
+        "Mariana Trench",
+        "Hudson Bay"
+      ]
+    },
+    {
+      "id": 238,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care este țara care leagă America de Nord și America de Sud?",
+      "correct_answer": "Istmul din Panama",
+      "incorrect_answers": [
+        "Istmul din Suez",
+        "Urali",
+        "Australasia"
+      ]
+    },
+    {
+      "id": 239,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care este cel mai comun traseu de alpinism pentru al doilea cel mai înalt munte din lume, K2?",
+      "correct_answer": "Abruzzi Spur",
+      "incorrect_answers": [
+        "Magic Line",
+        "Cesen Route",
+        "Polish Line"
+      ]
+    },
+    {
+      "id": 240,
+      "category": "Geography",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre acestea NU este o placă tectonică reală?",
+      "correct_answer": "Placa din Oceanul Atlantic",
+      "incorrect_answers": [
+        "Placa Nord Americana",
+        "Placa Eurasiana",
+        "Placa Nazca"
+      ]
+    },
+    {
+      "id": 241,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Ideea socialismului a fost articulată și avansată de către cine?",
+      "correct_answer": "Karl Marx",
+      "incorrect_answers": [
+        "Vladimir Lenin",
+        "Josef Stalin",
+        "Vladimir Putin"
+      ]
+    },
+    {
+      "id": 242,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "În ce an a avut loc prăbușirea Wall Street-ului?",
+      "correct_answer": "1929",
+      "incorrect_answers": [
+        "1932",
+        "1930",
+        "1925"
+      ]
+    },
+    {
+      "id": 243,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cine a fost primul prim-ministru al Canadei?",
+      "correct_answer": "John Macdonald",
+      "incorrect_answers": [
+        "John Abbott",
+        "Alexander Mackenzie",
+        "Robert Borden"
+      ]
+    },
+    {
+      "id": 244,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cum a fost executat Socrate?",
+      "correct_answer": "Otravit",
+      "incorrect_answers": [
+        "Decapitat",
+        "Pluton de execuție",
+        "Crucificat "
+      ]
+    },
+    {
+      "id": 245,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cât a durat cel de-al Doilea Război Mondial?",
+      "correct_answer": "6 ani",
+      "incorrect_answers": [
+        "4 ani",
+        "5 ani",
+        "7 ani"
+      ]
+    },
+    {
+      "id": 246,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "The 'Trail of Tears' a fost un rezultat al politicii de îndepărtare a Indiei a președintelui Statelor Unite și a..?",
+      "correct_answer": "Andrew Jackson",
+      "incorrect_answers": [
+        "Harry S. Truman",
+        "Martin Van Buren",
+        "John Quincy Adams"
+      ]
+    },
+    {
+      "id": 247,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cine a condus Revoluția comunistă din Rusia?",
+      "correct_answer": "Vladimir Lenin",
+      "incorrect_answers": [
+        "Josef Stalin",
+        "Vladimir Putin",
+        "Mikhail Gorbachev"
+      ]
+    },
+    {
+      "id": 248,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Imperiul Otoman a fost dizolvat după ce a fost pierdut în ce război?",
+      "correct_answer": "Primul Razboi Mondial",
+      "incorrect_answers": [
+        "Razboiul din Crimeea",
+        "Revolutia din Serbia",
+        "Al Doilea Razboi Balcan"
+      ]
+    },
+    {
+      "id": 249,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care comandant militar celebru a mărșăluit o armată, care includea elefanți de război, peste Alpi în timpul celui de-al doilea război punic?",
+      "correct_answer": "Hannibal",
+      "incorrect_answers": [
+        "Garmanicus",
+        "Alexandru cel Mare",
+        "Tiberius"
+      ]
+    },
+    {
+      "id": 250,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cine a fost primul american care a mers în spațiu?",
+      "correct_answer": "Alan Shephard",
+      "incorrect_answers": [
+        "Neil Armstrong",
+        "John Glenn",
+        "Jim Lovell"
+      ]
+    },
+    {
+      "id": 251,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Ce motor a avut Spitfire L.F. Mk IX?",
+      "correct_answer": "Merlin 66",
+      "incorrect_answers": [
+        "Griffon 65",
+        "Merlin 50",
+        "Merlin X"
+      ]
+    },
+    {
+      "id": 252,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Când a fost înființată Agenția Națională de Securitate a Statelor Unite?",
+      "correct_answer": "4 noiembrie, 1952",
+      "incorrect_answers": [
+        "26 iulie, 1908",
+        "1 iulie, 1973",
+        "25 noiembrie, 2002"
+      ]
+    },
+    {
+      "id": 253,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Când s-a terminat bătălia de la Bulge?",
+      "correct_answer": "25 ianuarie, 1945",
+      "incorrect_answers": [
+        "6 august, 1945",
+        "7 decembrie, 1941",
+        "16 decembrie, 1944"
+      ]
+    },
+    {
+      "id": 254,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "În ce an au fost instituite reformele mariane în Republica Romană?",
+      "correct_answer": "107 î.Hr.",
+      "incorrect_answers": [
+        "42 d.Hr.",
+        "264 d.Hr.",
+        "102 î.Hr."
+      ]
+    },
+    {
+      "id": 255,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care dintre următorii lunetiști are cel mai mare număr de morți confirmate?",
+      "correct_answer": "Simo Häyhä",
+      "incorrect_answers": [
+        "Chris Kyle",
+        "Vasily Zaytsev",
+        "Craig Harrison"
+      ]
+    },
+    {
+      "id": 256,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Când au declarat oficial Statele Unite război Japoniei, intrând în cel de-al doilea război mondial?",
+      "correct_answer": "8 decembrie, 1941",
+      "incorrect_answers": [
+        "6 iunie, 1944",
+        "22 iunie, 1941",
+        "1 septembrie, 1939"
+      ]
+    },
+    {
+      "id": 257,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care a fost lungimea totală a Titanicului?",
+      "correct_answer": "882 ft | 268.8 m",
+      "incorrect_answers": [
+        "759 ft | 231.3 m",
+        "1042 ft | 317.6 m",
+        "825 ft | 251.5 m"
+      ]
+    },
+    {
+      "id": 258,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Cum se numește nava care se afla la doar câțiva kilometri de RMS Titanic când a lovit un aisberg pe 14 aprilie 1912?",
+      "correct_answer": "Californian",
+      "incorrect_answers": [
+        "Carpathia",
+        "Cristol",
+        "Commerce"
+      ]
+    },
+    {
+      "id": 259,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care SUA Președintele a fost faimos și 'atacat' de un iepure de înot?",
+      "correct_answer": "Jimmy Carter",
+      "incorrect_answers": [
+        "Ronald Reagan",
+        "Lydon B. Johnson",
+        "Gerald Ford"
+      ]
+    },
+    {
+      "id": 260,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Cine l-a asasinat pe arhiducele Franz Ferdinand?",
+      "correct_answer": "Gavrilo Princip",
+      "incorrect_answers": [
+        "Nedeljko Čabrinović",
+        "Oskar Potiorek",
+        "Ferdinand Cohen-Blind"
+      ]
+    },
+    {
+      "id": 261,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care bătălie navală a fost considerată punctul de cotitură al Teatrului Oceanului Pacific în timpul celui de-al Doilea Război Mondial 2?",
+      "correct_answer": "Bătălia de la Midway",
+      "incorrect_answers": [
+        "Atacul asupre insulei Truk",
+        "Atacul asupra Pearl Harbor",
+        "Bătălia din Marea Coralilor"
+      ]
+    },
+    {
+      "id": 262,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Când a fost înființată SS sau Schutzstaffel?",
+      "correct_answer": "4 aprilie, 1925",
+      "incorrect_answers": [
+        "1 septembrie, 1941",
+        "8 martie, 1935",
+        "21 februarie, 1926"
+      ]
+    },
+    {
+      "id": 263,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "În timpul Războaielor Rozelor (1455-1487), care englez a fost numit 'The Kingmaker'?",
+      "correct_answer": "Richard Neville",
+      "incorrect_answers": [
+        "Richard al III-lea",
+        "Henry al V-lea",
+        "Thomas Warwick"
+      ]
+    },
+    {
+      "id": 264,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Al doilea război al burilor din 1899 unde s-a luptat?",
+      "correct_answer": "Africa de Sud",
+      "incorrect_answers": [
+        "Argentina",
+        "Nepal",
+        "Bulgaria"
+      ]
+    },
+    {
+      "id": 265,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care a fost numele real al liderului național albanez Skanderbeg?",
+      "correct_answer": "Gjergj Kastrioti",
+      "incorrect_answers": [
+        "Diturak Zhulati",
+        "Iskander Bejko",
+        "Mirash Krasniki"
+      ]
+    },
+    {
+      "id": 266,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Când a fost ridicat asediul Leningradului în timpul celui de-al Doilea Război Mondial?",
+      "correct_answer": "Ianuarie 1944",
+      "incorrect_answers": [
+        "Septembrie 1943",
+        "Noiembrie 1943",
+        "Martie 1944"
+      ]
+    },
+    {
+      "id": 267,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Obiectivul principal al operațiunii germane 'cazul Blue' în timpul celui de-al doilea război mondial a fost inițial de a captura ce?",
+      "correct_answer": "Caucaz",
+      "incorrect_answers": [
+        "Stalingrad",
+        "Crimea",
+        "Voronezh"
+      ]
+    },
+    {
+      "id": 268,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Înainte ca coloniile americane să treacă la calendarul gregorian în 1752, la ce dată a început noul an?",
+      "correct_answer": "25 martie",
+      "incorrect_answers": [
+        "1 iunie",
+        "25 septembrie",
+        "1 martie"
+      ]
+    },
+    {
+      "id": 269,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Cine a fost primul om care a călătorit de două ori în spațiu?",
+      "correct_answer": "Gus Grissom",
+      "incorrect_answers": [
+        "Vladimir Komarov",
+        "Charles Conrad",
+        "Yuri Gagarin"
+      ]
+    },
+    {
+      "id": 270,
+      "category": "History",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre următorii fizicieni a ajutat Germania nazistă în producerea unei arme nucleare?",
+      "correct_answer": "Werner Heisenberg",
+      "incorrect_answers": [
+        "John von Neumann",
+        "Albert Einstein",
+        "Max Planck"
+      ]
+    },
+    {
+      "id": 271,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care dintre aceste rase stelare are o cultură a Vestului sălbatic?",
+      "correct_answer": "Novakid",
+      "incorrect_answers": [
+        "Avian",
+        "Human",
+        "Hylotl"
+      ]
+    },
+    {
+      "id": 272,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Cine este creatorul Super Smash Bros Series?",
+      "correct_answer": "Masahiro Sakurai",
+      "incorrect_answers": [
+        "Reginald Fils-Aimé",
+        "Bill Trinen",
+        "Hideo Kojima"
+      ]
+    },
+    {
+      "id": 273,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care dintre acestea NU este o franciză de jocuri de divertisment umongous?",
+      "correct_answer": "Commander Keen",
+      "incorrect_answers": [
+        "Pajama Sam",
+        "Putt-Putt",
+        "Freddi Fish"
+      ]
+    },
+    {
+      "id": 274,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "În ce an a fost lansat jocul Dishonored?",
+      "correct_answer": "2012",
+      "incorrect_answers": [
+        "2011",
+        "2008",
+        "2013"
+      ]
+    },
+    {
+      "id": 275,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care dintre următoarele nu este o chemare în joc 'South Park: The Stick of Truth'?",
+      "correct_answer": "Towelie",
+      "incorrect_answers": [
+        "Jesus",
+        "Mr. Hankey",
+        "Mr. Slave"
+      ]
+    },
+    {
+      "id": 276,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "În jocul video Overwatch, care personaj jucabil este infam pentru a spune 'It's high noon'?",
+      "correct_answer": "McCree",
+      "incorrect_answers": [
+        "Hanzo",
+        "Pharah",
+        "Soldier: 76"
+      ]
+    },
+    {
+      "id": 277,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Care dintre următoarele personaje din joc 'Overwatch' sa dovedit a fi homosexual în decembrie 2016?",
+      "correct_answer": "Tracer",
+      "incorrect_answers": [
+        "Widowmaker",
+        "Sombra",
+        "Symmetra"
+      ]
+    },
+    {
+      "id": 278,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Lanky, Funky și Chunky sunt toate personajele prezentate în ce serie deținută de Nintendo?",
+      "correct_answer": "Donkey Kong",
+      "incorrect_answers": [
+        "Mario",
+        "Kirby",
+        "Zelda"
+      ]
+    },
+    {
+      "id": 279,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "În final Fantasy XIV, care este numele Deep Dungeon care a fost introdus în pachetul de expansiune, Heavensward?",
+      "correct_answer": "Palace of the Dead",
+      "incorrect_answers": [
+        "Heaven on High",
+        "Aetherochemical Research Facility",
+        "Sunken Temple of Qarn"
+      ]
+    },
+    {
+      "id": 280,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "easy",
+      "question": "Câte blocuri obsidian sunt necesare pentru a construi un portal Nether în Minecraft?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "14",
+        "13",
+        "16"
+      ]
+    },
+    {
+      "id": 281,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Ce nume a avut 'Mario', din & 'Super Mario Brothers', inițial?",
+      "correct_answer": "Ossan",
+      "incorrect_answers": [
+        "Jumpman",
+        "Mr. Video",
+        "Mario"
+      ]
+    },
+    {
+      "id": 282,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Ce jucător de fotbal apare pe coperta internațională a jocului video FIFA 16?",
+      "correct_answer": "Lionel Messi",
+      "incorrect_answers": [
+        "Cristiano Ronaldo",
+        "Wayne Rooney",
+        "David Beckham"
+      ]
+    },
+    {
+      "id": 283,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Drepturile asupra seriei 'Rayman' sunt deținute de către ce companie?",
+      "correct_answer": "Ubisoft",
+      "incorrect_answers": [
+        "Nintendo",
+        "EA",
+        "Sony"
+      ]
+    },
+    {
+      "id": 284,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Titlul horror de supraviețuire al lui Capcom, Dead Rising, începe canonic în ce zi a lunii septembrie din 2006?",
+      "correct_answer": "19 spetembrie",
+      "incorrect_answers": [
+        "21 septembrie",
+        "30 septembrie",
+        "14 septembrie"
+      ]
+    },
+    {
+      "id": 285,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "ÎN PROTOTYPE 2, care dintre următoarele abilități/arme NU este obținută de un evoluat?",
+      "correct_answer": "Tendrils",
+      "incorrect_answers": [
+        "Blade",
+        "Bio-Bomb",
+        "Pack Leader"
+      ]
+    },
+    {
+      "id": 286,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Care dintre următoarele a creat și regizat seria Katamari Damacy?",
+      "correct_answer": "Keita Takahashi",
+      "incorrect_answers": [
+        "Hideki Kamiya",
+        "Shu Takumi",
+        "Shinji Mikami"
+      ]
+    },
+    {
+      "id": 287,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Câte note diferite este melodia, 'Song of Healing', din 'The Legend of Zelda: Majora's Mask'?",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "4",
+        "1",
+        "6"
+      ]
+    },
+    {
+      "id": 288,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Când a fost 'System Shock' lansat?",
+      "correct_answer": "1994",
+      "incorrect_answers": [
+        "1995",
+        "2000",
+        "1998"
+      ]
+    },
+    {
+      "id": 289,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "De unde își trage numele personajul din jocul video Nintendo Mario?",
+      "correct_answer": "Proprietarul sediului american",
+      "incorrect_answers": [
+        "Socrul lui Shigeru Miyamoto",
+        "Instalatorul lui Satoru Iwata",
+        "Data (10 martie) la care Donkey Kong a fost lansat."
+      ]
+    },
+    {
+      "id": 290,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "medium",
+      "question": "Câți prieteni permanenți există în versiunea de bază a jocului Fallout: New Vegas?",
+      "correct_answer": "8",
+      "incorrect_answers": [
+        "7",
+        "9",
+        "6"
+      ]
+    },
+    {
+      "id": 291,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care a fost numele de cod dat lui Sonic the Hedgehog 4 în timpul dezvoltării sale?",
+      "correct_answer": "Proiectul Needlemouse",
+      "incorrect_answers": [
+        "Proiectul Bluespike",
+        "Proiectul Roboegg",
+        "Proiectul Darksphere"
+      ]
+    },
+    {
+      "id": 292,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "În jocul video 'Metal Gear solid', ce a considerat Revolver Ocelot cel mai mare pistol făcut vreodată?",
+      "correct_answer": "Colt Single Action Army",
+      "incorrect_answers": [
+        "Colt Python",
+        "Colt M1892",
+        "Colt 1851 Navy Revolver"
+      ]
+    },
+    {
+      "id": 293,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "În Cronicile Xenoblade X, care clasă are o pușcă cu lunetă ca armă principală?",
+      "correct_answer": "Partisan Eagle",
+      "incorrect_answers": [
+        "Blast Fencer",
+        "Winged Viper",
+        "Bastion Warrior"
+      ]
+    },
+    {
+      "id": 294,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care dintre aceste personaje a fost considerat, dar în cele din urmă nu a fost inclus, pentru Super Smash Bros Melee?",
+      "correct_answer": "James Bond",
+      "incorrect_answers": [
+        "Diddy Kong",
+        "Mega Man",
+        "Wave Racer"
+      ]
+    },
+    {
+      "id": 295,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "In 'Starbound', care este HP-ul maxim al monstrului 'punchy'?",
+      "correct_answer": "50,000 HP",
+      "incorrect_answers": [
+        "9,000,000 HP",
+        "100 HP",
+        "150,000 HP"
+      ]
+    },
+    {
+      "id": 296,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "În 'Team Fortress', câtă sănătate are un cercetaș atunci când este vindecat?",
+      "correct_answer": "185",
+      "incorrect_answers": [
+        "215",
+        "195",
+        "225"
+      ]
+    },
+    {
+      "id": 297,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care este numele real al 'warhead' în jocul Sega Genesis 'Vectorman'",
+      "correct_answer": "Raster",
+      "incorrect_answers": [
+        "Peacehead",
+        "Vectorkid",
+        "Bitmap"
+      ]
+    },
+    {
+      "id": 298,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Care este numele speciei extraterestre introduse în Shadow the Hedgehog (2005)?",
+      "correct_answer": "Black Arms",
+      "incorrect_answers": [
+        "The Swarm",
+        "Black Hive",
+        "The Eclipse"
+      ]
+    },
+    {
+      "id": 299,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Cine este victima menționată în cel de-al doilea incident KG-8, în investigațiile Ace, cazul 4?",
+      "correct_answer": "Deid Mann",
+      "incorrect_answers": [
+        "Frank Sahwit",
+        "Shey De Killer",
+        "Raymond Shields"
+      ]
+    },
+    {
+      "id": 300,
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "În joc Warframe, ce rang de măiestrie aveți nevoie pentru a construi Tigru Prime?",
+      "correct_answer": "13",
+      "incorrect_answers": [
+        "6",
+        "18",
+        "10"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "userID": "1",
+      "category": "Entertainment: Video Games",
+      "difficulty": "Easy",
+      "language": "ro",
+      "date": "05/04/2023",
+      "score": 80,
+      "id": 1
+    },
+    {
+      "userID": "1",
+      "category": "Geography",
+      "difficulty": "Easy",
+      "language": "ro",
+      "date": "05/04/2023",
+      "score": 100,
+      "id": 2
+    },
+    {
+      "userID": "1",
+      "category": "Entertainment: Video Games",
+      "difficulty": "Easy",
+      "language": "ro",
+      "date": "06/04/2023",
+      "score": 90,
+      "id": 3
+    },
+    {
+      "userID": "1",
+      "category": "Science & Nature",
+      "difficulty": "medium",
+      "language": "en",
+      "date": "22/4/2023",
+      "score": 20,
+      "id": 4
+    },
+    {
+      "userID": "1",
+      "category": "Science: Computers",
+      "difficulty": "medium",
+      "language": "en",
+      "date": "22/4/2023",
+      "score": 20,
+      "id": 5
+    },
+    {
+      "userID": "7",
+      "category": "Geography",
+      "difficulty": "easy",
+      "language": "ro",
+      "date": "22/4/2023",
+      "score": 90,
+      "id": 6
+    },
+    {
+      "userID": "7",
+      "category": "History",
+      "difficulty": "easy",
+      "language": "en",
+      "date": "22/4/2023",
+      "score": 50,
+      "id": 7
+    },
+    {
+      "userID": "1",
+      "category": "Science & Nature",
+      "difficulty": "medium",
+      "language": "ro",
+      "date": "25/4/2023",
+      "score": 0,
+      "id": 8
+    },
+    {
+      "userID": "11",
+      "category": "Science & Nature",
+      "difficulty": "medium",
+      "language": "en",
+      "date": "25/4/2023",
+      "score": 30,
+      "id": 9
+    },
+    {
+      "userID": "3",
+      "category": "Geography",
+      "difficulty": "easy",
+      "language": "ro",
+      "date": "26/4/2023",
+      "score": 70,
+      "id": 10
+    },
+    {
+      "userID": "3",
+      "category": "Science: Computers",
+      "difficulty": "hard",
+      "language": "en",
+      "date": "26/4/2023",
+      "score": 20,
+      "id": 11
+    },
+    {
+      "userID": "3",
+      "category": "Science & Nature",
+      "difficulty": "easy",
+      "language": "ro",
+      "date": "26/4/2023",
+      "score": 70,
+      "id": 12
+    },
+    {
+      "userID": "10",
+      "category": "Geography",
+      "difficulty": "medium",
+      "language": "ro",
+      "date": "26/4/2023",
+      "score": 10,
+      "id": 13
+    },
+    {
+      "userID": "10",
+      "category": "History",
+      "difficulty": "hard",
+      "language": "ro",
+      "date": "26/4/2023",
+      "score": 30,
+      "id": 14
+    }
+  ],
+  "messages": [
+    {
+      "userID": "1",
+      "firstName": "Mirel",
+      "lastName": "Baciu",
+      "email": "mirel.baciu@gmail.com",
+      "message": "ceva mesaj",
+      "id": 1
+    },
+    {
+      "userID": "1",
+      "firstName": "Mirel",
+      "lastName": "Baciu",
+      "email": "mirel.baciu@gmail.com",
+      "message": "Salut acesta este mesajul meu",
+      "id": 2
+    },
+    {
+      "userID": "7",
+      "firstName": "Maria",
+      "lastName": "Popescu",
+      "email": "maria.popescu@gmail.com",
+      "message": "Salut eu sunt maria popescu si imi place aceasta aplicatie!",
+      "id": 3
+    },
+    {
+      "userID": "7",
+      "firstName": "Maria",
+      "lastName": "Popescu",
+      "email": "maria.popescu@gmail.com",
+      "message": "Salut mai am inca un mesaj.",
+      "id": 4
+    },
+    {
+      "userID": "7",
+      "firstName": "Maria",
+      "lastName": "Popescu",
+      "email": "maria.popescu@gmail.com",
+      "message": "Inca un mesaj ",
+      "id": 5
+    },
+    {
+      "userID": "7",
+      "firstName": "Maria",
+      "lastName": "Popescu",
+      "email": "maria.popescu@gmail.com",
+      "message": "Si inca unul",
+      "id": 6
+    },
+    {
+      "userID": "11",
+      "firstName": "Andrei",
+      "lastName": "Maresiu",
+      "email": "andrei.maresiu@gmail.com",
+      "message": "Hello",
+      "id": 7
+    },
+    {
+      "userID": "3",
+      "firstName": "Ioana",
+      "lastName": "Popa",
+      "email": "ioana.popa@gmail.com",
+      "message": "Salut eu sunt Ioana Popa si aceasta este mesajul meu",
+      "id": 8
+    }
+  ]
+}
