@@ -4,8 +4,6 @@ class UsersRepository {
     }
 
     getAllUsers() {
-        // call to an API to load all users
-        //return a list of users
         const apiURL = "http://localhost:3000/users";
 
         const usersList = [];
@@ -30,8 +28,6 @@ class UsersRepository {
     }
 
     saveUser(userData) {
-        //save it to storage
-        //Data will come from UI, html inputs
         const apiURL = "http://localhost:3000/users";
 
         const newUser = {
@@ -40,7 +36,7 @@ class UsersRepository {
             firstName: userData.getFirstName(),
             lastName: userData.getLastName(),
             email: userData.getEmail(),
-            description: "empty",
+            description: userData.getDescription(),
             isAdmin: userData.getIsAdmin()
         }
 
@@ -59,18 +55,17 @@ class UsersRepository {
         xmlHttp.send(JSON.stringify(newUser));
     }
 
-    updateUser(newUsername, newPassword, newFirstName, newLastName, newEmail, newDescription, id) {
-        //Data will come from UI, html inputs
+    updateUser(userData, id) {
         const apiURL = "http://localhost:3000/users";
 
         const newUser = {
-            username: newUsername,
-            password: newPassword,
-            firstName: newFirstName,
-            lastName: newLastName,
-            email: newEmail,
-            description: newDescription,
-            isAdmin: "false"
+            username: userData.getUsername(),
+            password: userData.getPassword(),
+            firstName: userData.getFirstName(),
+            lastName: userData.getLastName(),
+            email: userData.getEmail(),
+            description: userData.getDescription(),
+            isAdmin: userData.getIsAdmin()
         }
 
         const xmlHttp = new XMLHttpRequest();
@@ -88,18 +83,16 @@ class UsersRepository {
         xmlHttp.send(JSON.stringify(newUser));
     }
 
-    saveResult(id, testCategory, testDifficulty, testLanguage, testDate, testScore) {
-        //save it to storage
-        //Data will come from UI, html inputs
+    saveResult(resultData) {
         const apiURL = "http://localhost:3000/results";
 
         const newResult = {
-            userID: id,
-            category: testCategory,
-            difficulty: testDifficulty,
-            language: testLanguage,
-            date: testDate,
-            score: testScore
+            userID: resultData.getUserId(),
+            category: resultData.getCategory(),
+            difficulty: resultData.getDifficulty(),
+            language: resultData.getLanguage(),
+            date: resultData.getDate(),
+            score: resultData.getScore()
         }
 
         const xmlHttp = new XMLHttpRequest();
@@ -118,8 +111,6 @@ class UsersRepository {
     }
 
     getResultByUserId(id) {
-        // call to an API to load all users
-        //return a list of users
         const apiURL = "http://localhost:3000/results";
 
         const resultsList = [];
@@ -145,15 +136,15 @@ class UsersRepository {
         return resultsList;
     }
 
-    saveUserMessage(id, userFirstName, userLastName, userEmail, userMessage) {
+    saveUserMessage(messageData) {
         const apiURL = "http://localhost:3000/messages";
 
         const newMessage = {
-            userID: id,
-            firstName: userFirstName,
-            lastName: userLastName,
-            email: userEmail,
-            message: userMessage
+            userID: messageData.getUserId(),
+            firstName: messageData.getFirstName(),
+            lastName: messageData.getLastName(),
+            email: messageData.getEmail(),
+            message: messageData.getMessage()
         }
 
         const xmlHttp = new XMLHttpRequest();
@@ -240,14 +231,16 @@ class User {
     #firstName;
     #lastName;
     #email;
+    #description;
     #isAdmin;
 
-    constructor(username, password, firstName, lastName, email, isAdmin) {
+    constructor(username, password, firstName, lastName, email, description, isAdmin) {
         this.#username = username;
         this.#password = password;
         this.#firstName = firstName;
         this.#lastName = lastName;
         this.#email = email;
+        this.#description = description;
         this.#isAdmin = isAdmin;
     }
 
@@ -275,7 +268,89 @@ class User {
         return `${this.#email}`;
     }
 
+    getDescription() {
+        return `${this.#description}`;
+    }
+
     getIsAdmin() {
         return `${this.#isAdmin}`;
+    }
+}
+
+class Result {
+    #userID;
+    #category;
+    #difficulty;
+    #language;
+    #date;
+    #score;
+
+    constructor(userID, category, difficulty, language, date, score) {
+        this.#userID = userID;
+        this.#category = category;
+        this.#difficulty = difficulty;
+        this.#language = language;
+        this.#date = date;
+        this.#score = score;
+    }
+
+    getUserId() {
+        return `${this.#userID}`;
+    }
+
+    getCategory() {
+        return `${this.#category}`;
+    }
+
+    getDifficulty() {
+        return `${this.#difficulty}`;
+    }
+
+    getLanguage() {
+        return `${this.#language}`;
+    }
+
+    getDate() {
+        return `${this.#date}`;
+    }
+
+    getScore() {
+        return `${this.#score}`;
+    }
+}
+
+class Message {
+    #userID;
+    #firstName;
+    #lastName;
+    #email;
+    #message;
+
+    constructor(userID, firstName, lastName, email, message) {
+        this.#userID = userID;
+        this.#firstName = firstName;
+        this.#lastName = lastName;
+        this.#email = email;
+        this.#message = message;
+    }
+
+    getUserId() {
+        return `${this.#userID}`;
+    }
+
+    getFirstName() {
+        return `${this.#firstName}`;
+    }
+
+    getLastName() {
+        return `${this.#lastName}`;
+    }
+
+    getEmail() {
+        return `${this.#email}`;
+    }
+
+    getMessage() {
+        return `${this.#message}`;
     }
 }

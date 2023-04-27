@@ -8,7 +8,15 @@ function submitMessage() {
 
     const userId = localStorage.getItem("currentUserID");
 
-    usersRepository.saveUserMessage(userId, firstNameInput.value, lastNameInput.value, emailInput.value, messageInput.value);
+    const message = new Message(
+        userId,
+        firstNameInput.value,
+        lastNameInput.value,
+        emailInput.value,
+        messageInput.value
+    );
+
+    usersRepository.saveUserMessage(message);
 
     const contactForm = document.querySelector(".form-container form");
     contactForm.style.display = "none";

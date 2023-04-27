@@ -55,7 +55,7 @@ submitButton.addEventListener("click", function () {
     if (inputPassword1.value !== inputPassword2.value ||
         (inputPassword1.value === null || inputPassword2.value === null) ||
         (inputPassword1.value === "" || inputPassword2.value === "")) {
-        
+
         password = userPassword;
 
     } else if (inputPassword1.value === inputPassword2.value) {
@@ -64,20 +64,25 @@ submitButton.addEventListener("click", function () {
     }
 
     if (descriptionInput.value === null || descriptionInput.value === "") {
+
         description = userDescription;
+
     } else {
+
         description = descriptionInput.value;
     }
 
-    usersRepository.updateUser(
+    const updatedUser = new User(
         usernameInput.value,
         password,
         firstNameInput.value,
         lastNameInput.value,
         emailInput.value,
-        description, //trebuie facuta o verificare in cazul in care nu exita numic in value
-        userId
+        description,
+        "false"
     );
+
+    usersRepository.updateUser(updatedUser, userId);
 
     localStorage.setItem("currentUserUsername", usernameInput.value);
     localStorage.setItem("currentUserPassword", password);
@@ -90,5 +95,17 @@ submitButton.addEventListener("click", function () {
 })
 
 
-//la finalul acestei pagini trebuie sa exite un button de log out care odata apasat
-//redirectioneaza userul la pagina de login si goleste local storage ul
+const logoutButton = document.querySelector(".logout-button-container button");
+
+logoutButton.addEventListener("click", function () {
+
+    localStorage.removeItem("currentUserID");
+    localStorage.removeItem("currentUserUsername");
+    localStorage.removeItem("currentUserPassword");
+    localStorage.removeItem("currentUserFirstName");
+    localStorage.removeItem("currentUserLastName");
+    localStorage.removeItem("currentUserEmail");
+    localStorage.removeItem("currentUserDescription");
+
+    location.href = "login.html";
+})

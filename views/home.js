@@ -153,12 +153,16 @@ function generateTest() {
 
             const todaysDate = `${day}/${month}/${year}`;
 
-            usersRepository.saveResult(userId, 
-                                       categoryValue, 
-                                       difficultyValue, 
-                                       languageValue, 
-                                       todaysDate, 
-                                       score);
+            const result = new Result(
+                userId,
+                categoryValue,
+                difficultyValue,
+                languageValue,
+                todaysDate,
+                score
+            );
+
+            usersRepository.saveResult(result);
 
         })
 

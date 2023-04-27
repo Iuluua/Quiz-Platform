@@ -3,10 +3,10 @@
     {
       "username": "mirel.b",
       "password": "pass.123",
-      "firstName": "Mirel",
+      "firstName": "Mirel-Ion",
       "lastName": "Baciu",
       "email": "mirel.baciu@gmail.com",
-      "description": "salut",
+      "description": "Salut, eu sunt mirel Baciu",
       "isAdmin": "false",
       "id": 1
     },
@@ -76,7 +76,7 @@
       "firstName": "Mirabel",
       "lastName": "Indoielnicul",
       "email": "mirabel.indoielnicul@gmail.com",
-      "description": "salutare",
+      "description": "Salut eu sunt Mirabel Indolenicul.",
       "isAdmin": "false",
       "id": 8
     },
@@ -99,6 +99,16 @@
       "description": "Salut, eu sunt Mirabela Ionescu si aceasta este noua mea descriere",
       "isAdmin": "false",
       "id": 10
+    },
+    {
+      "username": "ionica.p",
+      "password": "pass.123",
+      "firstName": "Ionica-Ionel",
+      "lastName": "Popica",
+      "email": "ionica.popica@gmail.com",
+      "description": "SALUT",
+      "isAdmin": "false",
+      "id": 11
     }
   ],
   "questions": [
@@ -4129,6 +4139,33 @@
       "date": "26/4/2023",
       "score": 30,
       "id": 14
+    },
+    {
+      "userID": "8",
+      "category": "History",
+      "difficulty": "medium",
+      "language": "ro",
+      "date": "26/4/2023",
+      "score": 20,
+      "id": 15
+    },
+    {
+      "userID": "11",
+      "category": "Geography",
+      "difficulty": "easy",
+      "language": "en",
+      "date": "27/4/2023",
+      "score": "70",
+      "id": 16
+    },
+    {
+      "userID": "8",
+      "category": "History",
+      "difficulty": "hard",
+      "language": "ro",
+      "date": "27/4/2023",
+      "score": "20",
+      "id": 17
     }
   ],
   "messages": [
@@ -4187,6 +4224,14 @@
       "email": "ioana.popa@gmail.com",
       "message": "Salut eu sunt Ioana Popa si aceasta este mesajul meu",
       "id": 8
+    },
+    {
+      "userID": "8",
+      "firstName": "Mirabel",
+      "lastName": "Indolenicul",
+      "email": "mirabel.indolenicul@gmail.com",
+      "message": "Salut eu sunt Mirabel Indoielnicul si acesta este mesajul meu!",
+      "id": 9
     }
   ]
 }

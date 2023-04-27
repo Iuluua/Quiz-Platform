@@ -1,3 +1,13 @@
+.logout-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout-button-container button {
+    margin-top: 16px;
+    margin-right: 32px;
+}
+
 .user-data-container {
     display: flex;
     flex-direction: column;
