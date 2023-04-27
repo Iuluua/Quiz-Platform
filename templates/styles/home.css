@@ -45,3 +45,22 @@
 .score-container h2 {
     text-align: center;
 }
+
+.score-container button {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+.score-container .question-review-container {
+    width: 50%;
+    padding-bottom: 100px;
+    padding-top: 830px;
+}
+
+.score-container .question-review-container > div {
+    margin-bottom: 28px;
+}
+
+.score-container .question-review-container > div > div {
+    margin-left: 20px;
+}

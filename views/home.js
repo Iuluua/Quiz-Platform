@@ -17,17 +17,23 @@ function generateTest() {
 
     const test = questionsRepository.getTest(categoryValue, difficultyValue, languageValue);
 
+    const checked = localStorage.getItem("themeCheckBox");
 
 
     setTimeout(() => {
         const quizContainer = document.createElement("div");
         quizContainer.classList.add("quiz-container");
 
+        let questionsTextList = [];
         let correctAnswersList = [];
+        let userAnswersList = [];
 
         for (i = 0; i < test.length; i++) {
             //get a list of all the correct answers
             correctAnswersList.push(test[i].correct_answer);
+
+            //get a list of all the questions text
+            questionsTextList.push(test[i].question);
 
             //display the question in a container to the user
             const questionContainer = document.createElement("div");
@@ -92,6 +98,11 @@ function generateTest() {
         const submitButton = document.createElement("button");
         submitButton.innerText = "Submit Answers";
         submitButton.classList.add("btn");
+        if (checked) {
+            submitButton.classList.add("btn-outline-dark");
+        } else {
+            submitButton.classList.remove("btn-outline-dark");
+        }
         submitButton.classList.add("btn-outline-secondary");
 
         pageContainer.appendChild(submitButton);
@@ -119,12 +130,20 @@ function generateTest() {
                             console.log(`The correct answer was: ${correctAnswersList[i]}`);
                             console.log("incorrect");
                         }
+                        userAnswersList.push(answersContainer[j].value);
                     }
 
                 }
             }
 
             console.log(score);
+
+            for (let answer of userAnswersList) {
+                console.log(answer);
+            }
+            for (let answer of correctAnswersList) {
+                console.log(answer);
+            }
 
             const dropdownContainer = document.querySelector(".page-container");
             dropdownContainer.style.display = "none";
@@ -140,9 +159,60 @@ function generateTest() {
             const scoreText = document.createElement("h2");
             scoreText.innerText = `Congratulations! You've completed the Quiz! \n You scored ${score} out of 100 points.`;
 
+            const reviewButton = document.createElement("button");
+            reviewButton.innerText = "Review";
+            reviewButton.classList.add("btn");
+            if (checked) {
+                reviewButton.classList.add("btn-outline-dark");
+            } 
+            reviewButton.classList.add("btn-outline-secondary");
+
             scoreContainer.appendChild(scoreText);
+            scoreContainer.appendChild(reviewButton);
+
+
+            //add the functionality for the review button
+            reviewButton.addEventListener("click", function () {
+                scoreContainer.removeChild(scoreText);
+                scoreContainer.removeChild(reviewButton);
+
+                const questionReviewContainer = document.createElement("div");
+                questionReviewContainer.classList.add("question-review-container");
+
+                let counter = 1;
+
+                for (let question of questionsTextList) {
+                    const questionTextContainer = document.createElement("div");
+
+                    const questionText = document.createElement("p");
+                    questionText.innerText = `${counter}. ${question}`;
+
+                    questionTextContainer.appendChild(questionText);
+                    questionReviewContainer.appendChild(questionTextContainer);
+
+                    counter++;
+                }
+
+                const questionReviewContainerChildren = questionReviewContainer.childNodes;
+
+                for(let i = 0; i < questionReviewContainerChildren.length; i++) {
+                    const userAnswer = document.createElement("div");
+                    userAnswer.innerText = `Your answer was: ${userAnswersList[i]}`;
+                    questionReviewContainerChildren[i].appendChild(userAnswer);
+
+                    const correctAnswer = document.createElement("div");
+                    correctAnswer.innerText = `The correct answer was: ${correctAnswersList[i]}`;
+                    questionReviewContainerChildren[i].appendChild(correctAnswer);
+                }
+
+                scoreContainer.appendChild(questionReviewContainer);
+
+            })
+
             document.body.appendChild(scoreContainer);
 
+
+            //save the quiz result to the database
             const userId = localStorage.getItem("currentUserID");
 
             const date = new Date();

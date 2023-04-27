@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/my-account.css">
+    <link rel="stylesheet" href="styles/toggle-switch.css">
 </head>
 
 <body>
@@ -46,6 +47,13 @@
     </nav>
 
     <div class="logout-button-container">
+        <div class="switch-container">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
         <button type="button" class="btn btn-outline-secondary" onclick="">Logout</button>
     </div>
 
@@ -104,6 +112,7 @@
     </nav>
 
     <script src="../views/my-account.js"></script>
+    <script src="../views/toggle-switch.js"></script>
 </body>
 
 </html>

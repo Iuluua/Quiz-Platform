@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/history.css">
+    <link rel="stylesheet" href="styles/toggle-switch.css">
+
 
 </head>
 
@@ -46,11 +48,29 @@
         </div>
     </nav>
 
+    <div class="switch-container">
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
     <div class="history-data-container">
         <h1>History</h1>
     </div>
 
+    <nav class="fixed-bottom navbar-light bg-light">
+        <div class="container-fluid social-media-container">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+        </div>
+    </nav>
+
     <script src="../views/history.js"></script>
+    <script src="../views/toggle-switch.js"></script>
+
 </body>
 
 </html>

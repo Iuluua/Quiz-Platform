@@ -1,6 +1,7 @@
 const usersRepository = new UsersRepository();
 
 const userId = localStorage.getItem("currentUserID");
+const isChecked = localStorage.getItem("themeCheckBox");
 
 const results = usersRepository.getResultByUserId(userId);
 
