@@ -6,8 +6,8 @@
       "firstName": "Mirel-Ion",
       "lastName": "Baciu",
       "email": "mirel.baciu@gmail.com",
-      "description": "Salut, eu sunt mirel Baciu",
-      "isAdmin": "false",
+      "description": "Da, eu sunt Mirel Baciu",
+      "isAdmin": "true",
       "id": 1
     },
     {
@@ -18,7 +18,7 @@
       "lastName": "Popescu",
       "email": "maria.popescu@gmail.com",
       "description": "",
-      "isAdmin": false
+      "isAdmin": "false"
     },
     {
       "username": "ioana.p",
@@ -38,7 +38,7 @@
       "lastName": "Pop",
       "email": "ion.pop@gmail.com",
       "description": "empty",
-      "isAdmin": true
+      "isAdmin": "false"
     },
     {
       "username": "ionel.p",
@@ -47,7 +47,7 @@
       "lastName": "Popa",
       "email": "ionel.popa@gmail.com",
       "description": "empty",
-      "isAdmin": false,
+      "isAdmin": "false",
       "id": 5
     },
     {
@@ -57,7 +57,7 @@
       "lastName": "Popescu",
       "email": "ionel.popescu@gmail.com",
       "description": "empty",
-      "isAdmin": false,
+      "isAdmin": "false",
       "id": 6
     },
     {
@@ -76,7 +76,7 @@
       "firstName": "Mirabel",
       "lastName": "Indoielnicul",
       "email": "mirabel.indoielnicul@gmail.com",
-      "description": "Salut eu sunt Mirabel Indolenicul.",
+      "description": "Salut eu sunt Mirabel Indoielnicul si aceasta este descrierea mea.",
       "isAdmin": "false",
       "id": 8
     },
@@ -4166,6 +4166,42 @@
       "date": "27/4/2023",
       "score": "20",
       "id": 17
+    },
+    {
+      "userID": "8",
+      "category": "Geography",
+      "difficulty": "easy",
+      "language": "ro",
+      "date": "27/4/2023",
+      "score": "30",
+      "id": 18
+    },
+    {
+      "userID": "1",
+      "category": "History",
+      "difficulty": "easy",
+      "language": "ro",
+      "date": "27/4/2023",
+      "score": "60",
+      "id": 19
+    },
+    {
+      "userID": "8",
+      "category": "Geography",
+      "difficulty": "medium",
+      "language": "ro",
+      "date": "28/4/2023",
+      "score": "40",
+      "id": 20
+    },
+    {
+      "userID": "8",
+      "category": "Geography",
+      "difficulty": "medium",
+      "language": "en",
+      "date": "28/4/2023",
+      "score": "30",
+      "id": 21
     }
   ],
   "messages": [
