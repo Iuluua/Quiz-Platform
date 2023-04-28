@@ -106,6 +106,7 @@ logoutButton.addEventListener("click", function () {
     localStorage.removeItem("currentUserLastName");
     localStorage.removeItem("currentUserEmail");
     localStorage.removeItem("currentUserDescription");
+    localStorage.removeItem("currentUserAdminStatus");
 
     localStorage.removeItem("themeCheckBox");
 

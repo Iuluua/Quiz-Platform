@@ -20,6 +20,7 @@ function login() {
                 localStorage.setItem("currentUserLastName", currentUser.lastName);
                 localStorage.setItem("currentUserEmail", currentUser.email);
                 localStorage.setItem("currentUserDescription", currentUser.description);
+                localStorage.setItem("currentUserAdminStatus", currentUser.isAdmin);
 
                 location.href="home.html";
             }
