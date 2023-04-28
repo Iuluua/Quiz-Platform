@@ -2,10 +2,9 @@ const themeSwitch = document.querySelector(".switch-container .switch input");
 
 const navBar = document.querySelector(".navbar");
 const footer = document.querySelector(".fixed-bottom");
-const buttons = document.querySelectorAll(".btn");
+let buttons = document.querySelectorAll(".btn");
 const inputs = document.querySelectorAll(".form-control");
 const formSelect = document.querySelectorAll(".form-select");
-console.log(formSelect);
 
 const checked = localStorage.getItem("themeCheckBox");
 
@@ -34,6 +33,8 @@ themeSwitch.addEventListener("click", function () {
 })
 
 function setDarkTheme(navBar, footer, buttons, inputs, formSelect) {
+    buttons = document.querySelectorAll(".btn");
+
     //add a dark theme for the background
     document.body.style.backgroundColor = "rgb(35, 39, 45)";
 
@@ -88,6 +89,8 @@ function setDarkTheme(navBar, footer, buttons, inputs, formSelect) {
 }
 
 function setLightTheme(navBar, footer, buttons, inputs, formSelect) {
+    buttons = document.querySelectorAll(".btn");
+
     //add a light theme for the background
     document.body.style.backgroundColor = "white";
 

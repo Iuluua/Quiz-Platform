@@ -107,5 +107,7 @@ logoutButton.addEventListener("click", function () {
     localStorage.removeItem("currentUserEmail");
     localStorage.removeItem("currentUserDescription");
 
+    localStorage.removeItem("themeCheckBox");
+
     location.href = "login.html";
 })

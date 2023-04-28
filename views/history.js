@@ -57,6 +57,10 @@ setTimeout(() => {
 
         resultCard.appendChild(resultUl);
         historyDataContainer.appendChild(resultCard);
+
+        if (themeSwitch.checked) {
+            setDarkTheme(navBar, footer, buttons, inputs, formSelect);
+        }
     }
 
 }, 100);//sa nu uiti sa schimbi la final aici cu mai putin pentru performance
