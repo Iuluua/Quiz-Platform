@@ -15,7 +15,7 @@ function generateTest() {
 
     const questionsRepository = new QuestionsRepository();
 
-    const test = questionsRepository.getTest(categoryValue, difficultyValue, languageValue);
+    const testQuestions = questionsRepository.getTest(categoryValue, difficultyValue, languageValue);
 
     const checked = localStorage.getItem("themeCheckBox");
 
@@ -23,6 +23,17 @@ function generateTest() {
     setTimeout(() => {
         const quizContainer = document.createElement("div");
         quizContainer.classList.add("quiz-container");
+
+        let testLength = 10;
+        let test = [];
+        
+        for(let i = 0; i < testLength; i++) {
+            const newTestItem = testQuestions[Math.floor((Math.random()*testQuestions.length))];
+            test.push(newTestItem);
+
+            const newTestItemIndex = testQuestions.indexOf(newTestItem);
+            testQuestions.splice(newTestItemIndex, 1);
+        }
 
         let questionsTextList = [];
         let correctAnswersList = [];
