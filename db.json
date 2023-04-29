@@ -893,17 +893,13 @@
       ]
     },
     {
-      "id": 61,
       "category": "Geography",
       "language": "en",
       "difficulty": "easy",
       "question": "What is the capital of Indonesia?",
       "correct_answer": "Jakarta",
-      "incorrect_answers": [
-        "Bandung",
-        "Medan",
-        "Palembang"
-      ]
+      "incorrect_answers": "Bandung,Medan,Palembang",
+      "id": 61
     },
     {
       "id": 62,
@@ -4000,17 +3996,13 @@
       ]
     },
     {
-      "id": 300,
       "category": "Entertainment: Video Games",
       "language": "ro",
       "difficulty": "hard",
       "question": "În joc Warframe, ce rang de măiestrie aveți nevoie pentru a construi Tigru Prime?",
       "correct_answer": "13",
-      "incorrect_answers": [
-        "6",
-        "18",
-        "10"
-      ]
+      "incorrect_answers": "6,18,10",
+      "id": 300
     }
   ],
   "results": [
@@ -4202,6 +4194,24 @@
       "date": "28/4/2023",
       "score": "30",
       "id": 21
+    },
+    {
+      "userID": "1",
+      "category": "Science: Computers",
+      "difficulty": "medium",
+      "language": "ro",
+      "date": "29/4/2023",
+      "score": "0",
+      "id": 22
+    },
+    {
+      "userID": "1",
+      "category": "Geography",
+      "difficulty": "easy",
+      "language": "en",
+      "date": "29/4/2023",
+      "score": "60",
+      "id": 23
     }
   ],
   "messages": [
