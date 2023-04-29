@@ -170,8 +170,6 @@ class QuestionsRepository {
     }
 
     getAllQuestionsEn() {
-        // call to an API to load all questions
-        //return a list of questions
         const apiURL = "  http://localhost:3000/questions";
 
         const questionList = [];
@@ -196,8 +194,6 @@ class QuestionsRepository {
     }
 
     getTest(category, difficulty, language) {
-        // call to an API to load all questions
-        //return a list of questions
         const apiURL = "  http://localhost:3000/questions";
 
         const questionList = [];
@@ -223,6 +219,75 @@ class QuestionsRepository {
         return questionList;
     }
 
+    saveQuestion(questionData) {
+        const apiURL = "http://localhost:3000/questions";
+
+        const newQuestion = {
+            category: questionData.getCategory(),
+            language: questionData.getLanguage(),
+            difficulty: questionData.getDifficulty(),
+            question: questionData.getQuestion(),
+            correct_answer: questionData.getCorrectAnswer(),
+            incorrect_answers: questionData.getIncorrectAnswers()
+        }
+
+        const xmlHttp = new XMLHttpRequest();
+
+        xmlHttp.onreadystatechange = function () {
+            if (this.readyState == XMLHttpRequest.DONE && this.status == 201) {
+                console.log(this.responseText);
+            }
+        }
+
+        xmlHttp.open("POST", `${apiURL}`, true);
+
+        xmlHttp.setRequestHeader('Content-type', 'application/json');
+
+        xmlHttp.send(JSON.stringify(newQuestion));
+    }
+
+    updateQuestion(questionData, id) {
+        const apiURL = "http://localhost:3000/questions";
+
+        const updatedQuestion = {
+            category: questionData.getCategory(),
+            language: questionData.getLanguage(),
+            difficulty: questionData.getDifficulty(),
+            question: questionData.getQuestion(),
+            correct_answer: questionData.getCorrectAnswer(),
+            incorrect_answers: questionData.getIncorrectAnswers()
+        }
+
+        const xmlHttp = new XMLHttpRequest();
+
+        xmlHttp.onreadystatechange = function () {
+            if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+                console.log(this.responseText);
+            }
+        }
+
+        xmlHttp.open("PUT", `${apiURL}/${id}`, true);
+
+        xmlHttp.setRequestHeader('Content-type', 'application/json');
+
+        xmlHttp.send(JSON.stringify(updatedQuestion));
+    }
+
+    deleteQuestion(id) {
+        const apiURL = "http://localhost:3000/questions";
+
+        const xmlHttp = new XMLHttpRequest();
+
+        xmlHttp.onreadystatechange = function () {
+            if (this.readyState == XMLHttpRequest.DONE && this.status == 200) {
+                console.log(this.responseText);
+            }
+        }
+
+        xmlHttp.open("DELETE", `${apiURL}/${id}`, true);
+
+        xmlHttp.send();
+    }
 }
 
 class User {
@@ -274,6 +339,48 @@ class User {
 
     getIsAdmin() {
         return `${this.#isAdmin}`;
+    }
+}
+
+class Question {
+    #category;
+    #language;
+    #difficulty;
+    #question;
+    #correctAnswer;
+    #incorrectAnswers;
+
+    constructor(category, language, difficulty, question, correctAnswer, incorrectAnswers) {
+        this.#category = category;
+        this.#language = language;
+        this.#difficulty = difficulty;
+        this.#question = question;
+        this.#correctAnswer = correctAnswer;
+        this.#incorrectAnswers = incorrectAnswers;
+    }
+
+    getCategory() {
+        return `${this.#category}`;
+    }
+
+    getLanguage() {
+        return `${this.#language}`;
+    }
+
+    getDifficulty() {
+        return `${this.#difficulty}`;
+    }
+
+    getQuestion() {
+        return `${this.#question}`;
+    }
+
+    getCorrectAnswer() {
+        return `${this.#correctAnswer}`;
+    }
+
+    getIncorrectAnswers() {
+        return `${this.#incorrectAnswers}`;
     }
 }
 

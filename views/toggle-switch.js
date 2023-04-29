@@ -72,16 +72,15 @@ function setDarkTheme(navBar, footer, buttons, inputs, formSelect) {
     //add a dark theme for the card headers
     setTimeout(() => {
         const cardHeaders = document.querySelectorAll(".card-header");
-        console.log(cardHeaders);
         for (let i = 0; i < cardHeaders.length; i++) {
             cardHeaders[i].classList.add("card-header-dark");
         }
 
         const listGroups = document.querySelectorAll(".list-group");
-        for(let i = 0; i < listGroups.length; i++) {
+        for (let i = 0; i < listGroups.length; i++) {
             const listItems = listGroups[i].childNodes;
-            
-            for(j = 0; j < listItems.length; j++) {
+
+            for (j = 0; j < listItems.length; j++) {
                 listItems[j].classList.add("list-item-dark");
             }
         }
@@ -128,16 +127,15 @@ function setLightTheme(navBar, footer, buttons, inputs, formSelect) {
     //add a light theme for the card headers
     setTimeout(() => {
         const cardHeaders = document.querySelectorAll(".card-header");
-        console.log(cardHeaders);
-        for(let i = 0; i < cardHeaders.length; i++) {
+        for (let i = 0; i < cardHeaders.length; i++) {
             cardHeaders[i].classList.remove("card-header-dark");
         }
 
         const listGroups = document.querySelectorAll(".list-group");
-        for(let i = 0; i < listGroups.length; i++) {
+        for (let i = 0; i < listGroups.length; i++) {
             const listItems = listGroups[i].childNodes;
-            
-            for(j = 0; j < listItems.length; j++) {
+
+            for (j = 0; j < listItems.length; j++) {
                 listItems[j].classList.remove("list-item-dark");
             }
         }

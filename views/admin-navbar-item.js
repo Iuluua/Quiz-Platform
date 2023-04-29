@@ -8,7 +8,7 @@ if (isAdmin === "true") {
 
     const adminNavBarLink = document.createElement("a");
     adminNavBarLink.classList.add("nav-link");
-    adminNavBarLink.setAttribute("href", "#");
+    adminNavBarLink.setAttribute("href", "../templates/admin.html");
     adminNavBarLink.innerText = "Admin";
 
     adminNavBarLi.appendChild(adminNavBarLink);

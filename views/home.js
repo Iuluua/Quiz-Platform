@@ -43,9 +43,15 @@ function generateTest() {
             questionContainer.appendChild(questionText);
 
 
-
             //get the answers and process them in order to be of random order
-            let answersList = test[i].incorrect_answers;
+            let answersList = [];
+
+            if( typeof test[i].incorrect_answers === "string") {
+                answersList = test[i].incorrect_answers.split(",");
+            } else {
+                answersList = test[i].incorrect_answers;
+            }
+
             answersList.push(test[i].correct_answer);
 
             const answersListLength = answersList.length;
