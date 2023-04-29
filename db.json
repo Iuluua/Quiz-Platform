@@ -4003,6 +4003,33 @@
       "correct_answer": "13",
       "incorrect_answers": "6,18,10",
       "id": 300
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Test?",
+      "correct_answer": "test - correct answer",
+      "incorrect_answers": "test,test,test",
+      "id": 301
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Test?",
+      "correct_answer": "test - correct answer",
+      "incorrect_answers": "test,test,test",
+      "id": 302
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "language": "ro",
+      "difficulty": "hard",
+      "question": "Test?",
+      "correct_answer": "test - correct answer",
+      "incorrect_answers": "test,test,test",
+      "id": 303
     }
   ],
   "results": [
@@ -4221,6 +4248,15 @@
       "date": "29/4/2023",
       "score": "10",
       "id": 24
+    },
+    {
+      "userID": "1",
+      "category": "Entertainment: Video Games",
+      "difficulty": "hard",
+      "language": "ro",
+      "date": "29/4/2023",
+      "score": "40",
+      "id": 25
     }
   ],
   "messages": [
