@@ -1,24 +1,11 @@
 const userId = localStorage.getItem("currentUserID");
-console.log(userId);
-
 const username = localStorage.getItem("currentUserUsername");
-console.log(username);
-
 const userPassword = localStorage.getItem("currentUserPassword");
-console.log(userPassword);
-
 const firstName = localStorage.getItem("currentUserFirstName");
-console.log(firstName);
-
 const lastName = localStorage.getItem("currentUserLastName");
-console.log(lastName);
-
 const email = localStorage.getItem("currentUserEmail");
-console.log(email);
-
 const userDescription = localStorage.getItem("currentUserDescription");
-console.log(userDescription);
-
+const isUserAdmin = localStorage.getItem("currentUserAdminStatus");
 
 
 const userGreeting = document.querySelector(".user-data-container h1");
@@ -79,7 +66,7 @@ submitButton.addEventListener("click", function () {
         lastNameInput.value,
         emailInput.value,
         description,
-        "false"
+        isUserAdmin
     );
 
     usersRepository.updateUser(updatedUser, userId);
