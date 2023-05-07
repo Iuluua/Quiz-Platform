@@ -18,7 +18,10 @@
 }
 
 .user-data-container h1 {
+    text-align: center;
     margin-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .user-data-container .input-container {
@@ -27,4 +30,10 @@
 
 .user-data-container button {
     margin-top: 12px;
+}
+
+@media (max-width: 1089px) {
+    .user-data-container .input-container {
+        width: 75%;
+    }
 }

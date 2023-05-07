@@ -26,3 +26,18 @@
     width: 100vw;
     margin-top: 100px;
 }
+
+@media (max-width: 1089px) {
+    .question-data-container .input-container {
+        width: 75%;
+    }
+
+    .success-message-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .success-message-container h1 {
+        text-align: center;
+    }
+}

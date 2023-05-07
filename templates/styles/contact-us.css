@@ -30,3 +30,18 @@
     margin-top: 32px;
     text-align: center;
 }
+
+@media (max-width: 1089px) {
+    .form-container p {
+        width: 75%;
+        text-align: center;
+    }
+
+    .form-container form {
+        width: 75%;
+    }
+
+    .form-container .success-message {
+        width: 75%;
+    }
+}

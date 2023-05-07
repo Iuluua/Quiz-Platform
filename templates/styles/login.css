@@ -18,3 +18,9 @@ body {
 .login-container p {
     text-align: center;
 }
+
+@media (max-width: 1089px) {
+    .login-container {
+        width: 350px;
+    }
+}

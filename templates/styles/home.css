@@ -5,6 +5,8 @@
     width: 100vw;
     margin-top: 32px;
     margin-bottom: 100px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .page-container h1 {
@@ -13,6 +15,7 @@
 
 .page-container h2 {
     margin-bottom: 60px;
+    text-align: center;
 }
 
 .page-container select {
@@ -44,6 +47,8 @@
 
 .score-container h2 {
     text-align: center;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 
 .score-container button {
@@ -63,4 +68,18 @@
 
 .score-container .question-review-container > div > div {
     margin-left: 20px;
+}
+
+@media (max-width: 1089px) {
+    .page-container select {
+        width: 75%;
+    }
+
+    .page-container .quiz-container {
+        width: 75%;
+    }
+
+    .score-container .question-review-container {
+        width: 75%;
+    }
 }

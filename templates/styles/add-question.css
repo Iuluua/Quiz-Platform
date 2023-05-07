@@ -31,3 +31,22 @@
     width: 100vw;
     margin-top: 100px;
 }
+
+@media (max-width: 1089px) {
+    .new-question-container select {
+        width: 75%;
+    }
+
+    .new-question-container .input-container {
+        width: 75%;
+    }
+
+    .message-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .message-container h1 {
+        text-align: center;
+    }
+}

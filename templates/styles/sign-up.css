@@ -23,3 +23,12 @@ body {
 .sign-up-container .row {
     margin-bottom: 12px;
 }
+
+@media (max-width: 1089px) {
+    .sign-up-container {
+        width: 370px;
+        height: 300px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
