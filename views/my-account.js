@@ -38,7 +38,7 @@ const emailInput = document.getElementById("email");
 emailInput.setAttribute("value", `${email}`);
 
 const descriptionInput = document.getElementById("description");
-descriptionInput.setAttribute("placeholder", `${userDescription}`);
+descriptionInput.innerText = `${userDescription}`;
 
 const inputPassword1 = document.getElementById("inputPassword1");
 const inputPassword2 = document.getElementById("inputPassword2");
